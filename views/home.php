@@ -1,21 +1,4 @@
-<?php function albumCard(){?>
-          <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div> <?php 
-      } ?>
-  <div class="container-fluid">
+ <div class="container-fluid">
   <div class="row">
     <nav class="col-md-2 d-none d-md-block bg-light sidebar">
       <div class="sidebar-sticky">
@@ -49,7 +32,6 @@
         </ul>
       </div>
     </nav>
-
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark my-4 w-100">
             <div class="col-md-6 px-0">
@@ -83,8 +65,12 @@
           <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cum explicabo velit error aliquid eveniet!</p>
           <a href="#">Continue reading</a>
         </div>
-        
         <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="250" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect fill="#55595c" width="100%" height="100%"/><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text></svg>
         </div>
     </div>
+    
+  <?php for($i=0;$i<6;$i++){
+      albumCard();
+  }
+  ?>
   </div>

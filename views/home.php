@@ -1,6 +1,23 @@
  <div class="container-fluid">
   <div class="row">
     <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <div class="sidebar-sticky">
+      <script>
+        function topFunction() {
+          document.documentElement.scrollTop = 0;
+        }
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+          } else {
+            document.getElementById("myBtn").style.display = "none";
+          }
+        }
+      </script>
+      <script>window.onscroll = scrollFunction();</script>
       <div class="sidebar-sticky">
         <?php mainNav(); ?>
         

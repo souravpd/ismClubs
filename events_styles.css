@@ -43,10 +43,9 @@ button.concettobutton
 }
 button.concettobutton:hover
 {
-  color:rgb(0,153,260);;
+  color:rgb(0,153,260);
   font-size: 32px;
   font-weight: bolder;
-  text-decoration: underline;
 }
 button.srijanbutton
 {
@@ -59,7 +58,6 @@ button.srijanbutton
 button.srijanbutton:hover
 {
   font-size: 32px;
-  text-decoration: underline;
   font-weight: bolder;
   color: rgb(0,153,260);
 }

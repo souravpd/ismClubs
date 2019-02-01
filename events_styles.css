@@ -32,15 +32,39 @@ div.srijancontent:hover
   opacity: 0.5;
 
 }
-button.buttonsrijan
+button.concettobutton
 {
   border-radius: 0px;
   border:0px solid white;
-  height: auto;
-  width: auto;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
 }
-button.buttonsrijan:hover
+button.concettobutton:hover
 {
-  background-color: black;
-  color: white;
+  color:rgb(0,153,260);;
+  font-size: 32px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+button.srijanbutton
+{
+  border-radius: 0px;
+  border:0px solid white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+}
+button.srijanbutton:hover
+{
+  font-size: 32px;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: rgb(0,153,260);
+}
+div.topbuttons
+{
+  width: 100%;
+  position: relative;
 }

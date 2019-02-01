@@ -44,7 +44,6 @@ button.concettobutton
 button.concettobutton:hover
 {
   color:rgb(0,153,260);
-  font-size: 32px;
   font-weight: bolder;
 }
 button.srijanbutton
@@ -57,7 +56,6 @@ button.srijanbutton
 }
 button.srijanbutton:hover
 {
-  font-size: 32px;
   font-weight: bolder;
   color: rgb(0,153,260);
 }
@@ -65,4 +63,15 @@ div.topbuttons
 {
   width: 100%;
   position: relative;
+}
+button.c
+{
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border: 0px solid white;
+}
+button.c:hover
+{
+  color: rgb(0,153,255);
 }

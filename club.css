@@ -1,0 +1,89 @@
+header{
+    height: 100vh !important;
+}
+
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#tit{
+    color:white;
+}
+#about_btn{
+    margin-top: 75vh;
+}
+.row-header {
+	margin: 0px auto;
+	padding: 0px auto;
+	
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+
+.footer{
+    background-color: #fc94a4;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    color:black;
+}
+
+
+
+body{
+    width: 100vw; 
+    padding:50px 0px 0px 0px;
+    z-index:0;
+    background-color: #fffdd0;
+    overflow-x: hidden;
+}
+
+.navbar-dark {
+ transition:500ms ease;
+background: #f90227; 
+z-index: 2;
+ 
+}
+.trans{
+ background: transparent;
+ color:black;
+}
+
+.trans:hover{
+background:#f90227;
+
+    opacity: 0.7;
+}
+
+.nav-sub{
+background: #f90227; 
+color: white;
+}
+#thin::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #f90227;;
+}
+
+#thin::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #f90227;;
+}
+
+#thin::-webkit-scrollbar-thumb
+{
+	background-color: #f90227;
+	border: 2px solid #f90227;
+}

@@ -62,10 +62,10 @@ body {
   .sidebar-sticky {
     position: relative;
     top: 0;
-    height: calc(100vh-48px );
+    height: calc(100vh - 48px);
     padding-top: .5rem;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
       }
 
   .sidebar-responsive{
@@ -85,13 +85,13 @@ body {
     }
   }
   
+ 
   @supports ((position: -webkit-sticky) or (position: sticky)) {
     .sidebar-sticky {
       position: -webkit-sticky;
       position: sticky;
     }
   }
-  
   .sidebar .nav-link {
     font-weight: 500;
     color: #333;

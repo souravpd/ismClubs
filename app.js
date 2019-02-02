@@ -1,4 +1,7 @@
 const searchInput = document.getElementById("searchInput");
+var searchList = document.createElement("ul");
+searchList.className="list-group";
+document.querySelector("main").insertBefore(searchList,document.querySelector("main").firstChild);
 const searchResults = document.querySelector(".list-group");
 searchInput.addEventListener("keyup", search);
 function add(obj){

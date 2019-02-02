@@ -2,16 +2,16 @@ const data = [
   {
       "field":"lightscameraism",
       "type":"Club",
-      "website":""
+      "website":"/LCI.html"
   },
   {
       "field":"abhaydramaticsclub",
       "type":"Club",
-      "website":""
+      "website":"/LCI.html"
   },
   {
       "field":"namanzelawat",
       "type":"Gsec Secretary",
-      "website":""
+      "website":"/contact.html"
   }
 ]

@@ -26,7 +26,11 @@ header{
     min-height:400px;
 }
 
-
+address {
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
 .footer{
     background-color: #fc94a4;
     margin:0px auto;

@@ -11,7 +11,7 @@ function add(obj){
     searchResults.style.zIndex = "1";
     searchResults.style.width="92.5%";
     const link = document.createElement('a');
-    link.innerHTML = `Name : ${obj.field} <br> Type : ${obj.type} <br>Website : ${obj.website} <br>`;
+    link.innerHTML = `Name : ${obj.field} <br> Type : ${obj.type} <br>Website : <a href="${obj.website}">Go there </a> <br>`;
     li.appendChild(link);
     searchResults.appendChild(li);    
 }

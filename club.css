@@ -29,12 +29,13 @@ header{
 address {
     font-size:80%;
     margin:0px;
-    color:#0f0f0f;
+    color:floralwhite;
 }
 .footer{
-    background-color: #fc94a4;
+    background-color: #706b69;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color:floralwhite;
 }
 
 .jumbotron {
@@ -55,7 +56,7 @@ body{
 
 .navbar-dark {
  transition:500ms ease;
-background: #f90227; 
+background: #353332; 
 z-index: 2;
  
 }
@@ -65,13 +66,13 @@ z-index: 2;
 }
 
 .trans:hover{
-background:#f90227;
+background:#353332;
 
     opacity: 0.7;
 }
 
 .nav-sub{
-background: #f90227; 
+background: #353332; 
 color: white;
 }
 #thin::-webkit-scrollbar-track
@@ -83,17 +84,17 @@ color: white;
 #thin::-webkit-scrollbar
 {
 	width: 10px;
-	background-color: #f90227;;
+	background-color: #353332;;
 }
 
 #thin::-webkit-scrollbar-thumb
 {
-	background-color: #f90227;
-	border: 2px solid #f90227;
+	background-color: #353332;
+	border: 2px solid #353332;
 }
 
 .subtitle {
-  background-color: #f23246;
+  background-color: #333333;
   color: #fff;
   display: block;
   font-size: 2.4em;

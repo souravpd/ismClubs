@@ -1,14 +1,50 @@
 
 body {
     font-size: .875rem;
+    overflow-x: hidden;  
   }
-  
+  #thin::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+#thin::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #353332;;
+}
+
+#thin::-webkit-scrollbar-thumb
+{
+  background-color: #353332;
+  border: 2px solid #353332;
+}
+
+
   .feather {
     width: 16px;
     height: 16px;
     vertical-align: text-bottom;
   }
-  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #4d4d4d;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  #myBtn:hover {
+    background-color: #595959;
+  }
   /*
    * Sidebar
    */
@@ -115,4 +151,8 @@ body {
   .form-control-dark:focus {
     border-color: transparent;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+  }
+
+  .socio{
+    font-size: 260%; color: floralwhite; 
   }

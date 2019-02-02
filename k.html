@@ -1,0 +1,218 @@
+<!-- DOCUMENT START -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>IIT ISM GYMKHANA</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+  * {
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: light blue;
+}
+
+.polaroid {
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.container {
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  align-content: flex-start;
+
+}
+
+.tab { 
+       display:inline-block; 
+       margin-bottom: 0px;
+       margin-top: 0px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: auto;
+  padding: 5px;
+}
+
+.link:hover{color: blue}
+
+</style>
+</head>
+
+<body>
+
+  <!-- TOP NAVIGATION -->
+
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Sign in</a>
+      </li>
+    </ul>
+  </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
+  <!-- SIDEBAR -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">
+
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Clubs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="events.html">
+                <span class="sr-only">(current)</span>
+                Events
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Blog
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Facilities
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="layers"></span>
+                Council
+              </a>
+            </li>
+          </ul>
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>User Section</span>
+          <a class="d-flex align-items-center text-muted" href="#">
+            <span data-feather="plus-circle"></span>
+          </a>
+        </h6>
+        <ul class="nav flex-column mb-2">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Merchandise
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calendar.html">
+              <span data-feather="file-text"></span>
+              Calendar
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span data-feather="file-text"></span>
+              Contact
+            </a>
+          </li>
+        </ul>
+    </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+      <div class="row">
+  <div class="column">
+    <div class="polaroid">
+        <img src="technical.png" alt="Norway" style="width:100%" />
+        <div class="container" >
+          <h3><a class="link" href="technical.html">TECHNICAL CLUBS</a></h3>
+        </div>
+      </div>
+  </div>
+  <div class="tab"></div>
+  <div class="column">
+    <div class="polaroid">
+        <img src="CULTURAL.png" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3><a href="CULTURAL.html">CULTURAL CLUBS</a></h3>
+      </div>
+    </div>
+  </div>
+  <div class="tab">
+    <div class="column">
+      <div class="polaroid">
+          <img src="PHOTO.png" alt="Norway" style="width:100%">
+        <div class="container">
+          <h3><a href="PHOTO.html">PHOTOGRAPHY & ART CLUBS</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab">
+    <div class="column">
+    <div class="polaroid">
+        <img src="LITERACY.png" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3><a href="LITERARY.html">LITERACY CLUBS</a></h3>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+    </main>
+  </div>
+  </div><!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="jquery/dist/jquery.slim.min.js"></script>
+    <script src="popper.js/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+s

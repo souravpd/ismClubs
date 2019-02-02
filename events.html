@@ -12,11 +12,12 @@
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="events_styles.css">
   <link href="styles.css" rel="stylesheet">
 </head>
 
 
-<body>
+<body onload="openconcetto()">
 
   <!-- TOP NAVIGATION -->
 
@@ -39,7 +40,7 @@
 
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link " href="index.html">
 
                 Home
               </a>
@@ -101,9 +102,48 @@
     </div>
     </nav>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <div class="topbuttons">
+      <button style="display:inline" class="concettobutton" id="cb" onclick="openconcetto()"> <div id="tbc"class="tb"> Concetto </div> </button>
+      <button style="display:inline" class="srijanbutton" id="sb" onclick="opensrijan()"> <div id="tbcs"class="tb"> Srijan </div> </button>
+                                      
+    <button class="c" id="cc1" style="display:inline">Facebook </button>
+    <button class="c" id="cc2" style="display:inline"> Instagram </button>
+    <button class="c" id="cc3" style="display:inline"> Gallery </button>
+    <button class="c" id="cc4" style="display:inline"> About </button>
+  </div>
+
+      <div id="overlayconcetto"class="overlay1c">
+
+      <img id="overlayconcettoimage"class="concetto_temp" src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/41672027_1597022413776242_3864320962568650752_o.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=4474a40b6854a64206ca1bfa86e7efd8&oe=5CF40330"
+      style="border:0px" width="100%" height="inherit"> </div>
+
+      <div id="overlaysrijan" class="overlay1s">
+      <img id="overlaysrijanimage" class="srijan_temp" src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/29312979_1597616133685402_7469244623941262707_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=d825ea257dd2a224ac6aacb39880de7a&oe=5D0153E3"
+      style="border:0px" width="100%" height="inherit"> </div>
 
 
 
+<script>
+function opensrijan()
+{
+  document.getElementById("overlayconcetto").style.display = "none";
+  document.getElementById("overlayconcettoimage").style.display = "none";
+  document.getElementById("overlaysrijan").style.display = "block";
+  document.getElementById("overlaysrijanimage").style.display = "block";
+  document.getElementById("sb").style.color = "rgb(0,153,260)";
+  document.getElementById("cb").style.color = "black";
+
+}
+function openconcetto()
+{
+  document.getElementById("overlayconcetto").style.display = "block";
+  document.getElementById("overlayconcettoimage").style.display = "block";
+  document.getElementById("overlaysrijan").style.display = "none";
+  document.getElementById("overlaysrijanimage").style.display = "none";
+  document.getElementById("cb").style.color = "rgb(0,153,260)";
+  document.getElementById("sb").style.color = "black";
+}
+</script>
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>

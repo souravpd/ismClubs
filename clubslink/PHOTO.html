@@ -9,11 +9,59 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../bootstrap-social/bootstrap-social.css">
   <link href="styles.css" rel="stylesheet">
-  
+  <style>
+  * {
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: lightblue;
+}
+
+.polaroid {
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.container {
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-top: 20px;
+  height: 75px
+
+}
+.tab { 
+       display:inline-block; 
+       margin-bottom: 0px;
+       margin-top: 0px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: auto;
+  padding: 5px;
+}
+
+.link:hover{color: blue}
+
+</style>
 </head>
 
 <body>
@@ -60,7 +108,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="k.html">
                 Clubs
               </a>
             </li>
@@ -117,50 +165,46 @@
     </nav>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-<div class="row m-3">
-    <div class="card m-2" style="width: 18rem;">
-  <img src="images1/technical.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="clubslink/technical.html" class="btn btn-primary">TECHNICAL CLUB</a>
+  <div class="row">
+  <div class="column">
+    <div class="polaroid">
+        <img src="images/LCI.png" alt="Norway" style="width:100%" />
+        <div class="container" >
+          <h3>LIGHTS CAMERA ISM</h3>
+        </div>
+      </div>
   </div>
-</div>
-<div class="card m-2" style="width: 18rem;">
-  <img src="images1/CULTURAL.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="clubslink/CULTURAL.html" class="btn btn-primary">CULTURAL CLUB</a>
+    <div class="tab">
+    <div class="column">
+    <div class="polaroid">
+        <img src="images/FOTOFREAKS.jpg" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3>FOTOFREAKS</h3>
+      </div>
+    </div>
+    </div>
   </div>
-</div>
-<div class="card m-2" style="width: 18rem;">
-  <img src="images1/PHOTO.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="clubslink/PHOTO.html" class="btn btn-primary">PHOTOGRAPHY & ART CLUB</a>
+  <div class="tab">
+    <div class="column">
+    <div class="polaroid">
+        <img src="images/ARTFREAKS.jpg" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3>ARTFREAKS</h3>
+      </div>
+    </div>
+    </div>
   </div>
-</div>
-<div class="card m-2" style="width: 18rem;">
-  <img src="images1/LITERACY.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="clubslink/LITERARY.html" class="btn btn-primary">LITERARY CLUB</a>
-  </div>
-</div>
 </div>
 
     </main>
   </div>
-  </div><!-- Optional JavaScript -->
+</div><!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-     <script src="search.js"></script>
+         <script src="search.js"></script>
      <script src="app.js"></script>
 </body>
 

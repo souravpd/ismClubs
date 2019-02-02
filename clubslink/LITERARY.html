@@ -1,3 +1,6 @@
+
+
+
 <!-- DOCUMENT START -->
 <!doctype html>
 <html lang="en">
@@ -13,57 +16,13 @@
   <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../bootstrap-social/bootstrap-social.css">
   <link href="styles.css" rel="stylesheet">
-  <style>
-  * {
-  box-sizing: border-box;
-}
-a:hover {
-  background-color: lightblue;
-}
-
-.polaroid {
-  width: 250px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  margin-top: 50px;
-  margin-right: 25px;
-}
-
-.container {
-  padding: 0px;
-  display: flex;
-  text-align: center;
-  align-items: flex-start;
-  align-content: flex-start;
-  margin-top: 20px;
-  height: 75px
-
-}
-
-.tab { 
-       display:inline-block; 
-       margin-bottom: 0px;
-       margin-top: 0px; 
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.column {
-  float: left;
-  width: auto;
-  padding: 5px;
-}
-
-.link:hover{color: blue}
-
-</style>
+  
 </head>
+<style >
+  .fr{
+    margin: auto;
+  }
+</style>
 
 <body>
 
@@ -109,7 +68,7 @@ a:hover {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="k.html">
+              <a class="nav-link" href="#">
                 Clubs
               </a>
             </li>
@@ -166,48 +125,51 @@ a:hover {
     </nav>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-  <div class="row">
-  <div class="column">
-    <div class="polaroid">
-        <img src="images/CHYANIKA.jpg" alt="Norway" style="width:100%" />
-        <div class="container" >
-          <h3>CHAYANIKA SANGH</h3>
-        </div>
-      </div>
-  </div>
-    <div class="tab">
-    <div class="column">
-    <div class="polaroid">
-        <img src="images/TOASTMASTERS.jpg" alt="Norway" style="width:100%">
-      <div class="container">
-        <h3>MIC.DROP TOASTMASTERS</h3>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="tab">
-    <div class="column">
-    <div class="polaroid">
-        <img src="images/LITC.jpg" alt="Norway" style="width:100%">
-      <div class="container">
-        <h3>LITERARY CLUB</h3>
-      </div>
-    </div>
-    </div>
-  </div>
+<div class="row m-3">
+    <div class="card m-2" style="width: 18rem;">
+  <img src="images/CHYANIKA.jpg" class="card-img-top" alt="...">
+  <div class="card-body m-sm-auto">
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+   
+    <a href="clubslink/technical.html" class="btn btn-primary" class="fr">CHAYANIKA SANGH</a>
+ 
+</div>
+</div>
+<div class="card m-2" style="width: 18rem;">
+  <img src="images/TOASTMASTERS.jpg" class="card-img-top" alt="...">
+  <div class="card-body m-sm-auto">
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+ 
+    <a href="clubslink/CULTURAL.html" class="btn btn-primary" class="fr">MIC.DROP TOASTMASTERS</a>
+
+</div>
 </div>
 
+<div class="card m-2" style="width: 18rem;">
+  <img src="images/LITC.jpg" class="card-img-top" alt="...">
+  <div class="card-body m-sm-auto">
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+
+    <a href="clubslink/LITERARY.html" class="btn btn-primary " >LITERARY CLUB</a>
+
+  </div>
+</div>
+</div>
 
     </main>
   </div>
-</div><!-- Optional JavaScript -->
+  </div><!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-         <script src="search.js"></script>
+     <script src="search.js"></script>
      <script src="app.js"></script>
 </body>
 
 </html>
+

@@ -5,19 +5,64 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <title>Cultural Events</title>
+  <title>IIT ISM GYMKHANA</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
-  <link rel="stylesheet" href="events_styles.css">
   <link href="styles.css" rel="stylesheet">
+  <style>
+  * {
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: light blue;
+}
+
+.polaroid {
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.container {
+  padding: 0px;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  align-content: flex-start;
+
+}
+
+.tab { 
+       display:inline-block; 
+       margin-bottom: 0px;
+       margin-top: 0px; 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: auto;
+  padding: 5px;
+}
+
+.link:hover{color: blue}
+
+</style>
 </head>
 
-
-<body onload="openconcetto()">
+<body>
 
   <!-- TOP NAVIGATION -->
 
@@ -31,6 +76,21 @@
     </ul>
   </nav>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
   <!-- SIDEBAR -->
 
   <div class="container-fluid">
@@ -51,7 +111,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="events\events.html">
+              <a class="nav-link active" href="events.html">
                 <span class="sr-only">(current)</span>
                 Events
               </a>
@@ -87,7 +147,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="calendar.html">
               <span data-feather="file-text"></span>
               Calendar
             </a>
@@ -102,48 +162,53 @@
     </div>
     </nav>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-      <div class="topbuttons">
-      <button style="display:inline" class="concettobutton" id="cb" onclick="openconcetto()"> <div id="tbc"class="tb"> Concetto </div> </button>
-      <button style="display:inline" class="srijanbutton" id="sb" onclick="opensrijan()"> <div id="tbcs"class="tb"> Srijan </div> </button>
-                                      
-    <button class="c" id="cc1" style="display:inline">Facebook </button>
-    <button class="c" id="cc2" style="display:inline"> Instagram </button>
-    <button class="c" id="cc3" style="display:inline"> Gallery </button>
-    <button class="c" id="cc4" style="display:inline"> About </button>
+
+      <div class="row">
+  <div class="column">
+    <div class="polaroid">
+        <img src="technical.png" alt="Norway" style="width:100%" />
+        <div class="container" >
+          <h3><a class="link" href="technical.html">TECHNICAL CLUBS</a></h3>
+        </div>
+      </div>
   </div>
+  <div class="tab"></div>
+  <div class="column">
+    <div class="polaroid">
+        <img src="CULTURAL.png" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3><a href="CULTURAL.html">CULTURAL CLUBS</a></h3>
+      </div>
+    </div>
+  </div>
+  <div class="tab">
+    <div class="column">
+      <div class="polaroid">
+          <img src="PHOTO.png" alt="Norway" style="width:100%">
+        <div class="container">
+          <h3><a href="PHOTO.html">PHOTOGRAPHY & ART CLUBS</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab">
+    <div class="column">
+    <div class="polaroid">
+        <img src="LITERACY.png" alt="Norway" style="width:100%">
+      <div class="container">
+        <h3><a href="LITERARY.html">LITERACY CLUBS</a></h3>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
 
-      <div id="overlayconcetto"class="overlay1c">
 
-      <img id="overlayconcettoimage"class="concetto_temp" src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/41672027_1597022413776242_3864320962568650752_o.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=4474a40b6854a64206ca1bfa86e7efd8&oe=5CF40330"
-      style="border:0px" width="100%" height="inherit"> </div>
+    </main>
+  </div>
+  </div><!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-      <div id="overlaysrijan" class="overlay1s">
-      <img id="overlaysrijanimage" class="srijan_temp" src="https://scontent-bom1-2.xx.fbcdn.net/v/t1.0-9/29312979_1597616133685402_7469244623941262707_n.jpg?_nc_cat=100&_nc_ht=scontent-bom1-2.xx&oh=d825ea257dd2a224ac6aacb39880de7a&oe=5D0153E3"
-      style="border:0px" width="100%" height="inherit"> </div>
-
-
-
-<script>
-function opensrijan()
-{
-  document.getElementById("overlayconcetto").style.display = "none";
-  document.getElementById("overlayconcettoimage").style.display = "none";
-  document.getElementById("overlaysrijan").style.display = "block";
-  document.getElementById("overlaysrijanimage").style.display = "block";
-  document.getElementById("sb").style.color = "rgb(0,153,260)";
-  document.getElementById("cb").style.color = "black";
-
-}
-function openconcetto()
-{
-  document.getElementById("overlayconcetto").style.display = "block";
-  document.getElementById("overlayconcettoimage").style.display = "block";
-  document.getElementById("overlaysrijan").style.display = "none";
-  document.getElementById("overlaysrijanimage").style.display = "none";
-  document.getElementById("cb").style.color = "rgb(0,153,260)";
-  document.getElementById("sb").style.color = "black";
-}
-</script>
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>

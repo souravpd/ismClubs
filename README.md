@@ -4,7 +4,6 @@
   It is made by the Web Development Team of Cyber Labs consisting of: <br>
   <ul>
    <li> Nikhil BN</li>
-   <li>Aayush Narway</li>
    <li>Sourav Prasad</li>
    <li>Naman Zelawat</li>
    <li>Chirag Jain</li>

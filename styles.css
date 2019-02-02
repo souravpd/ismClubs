@@ -173,6 +173,18 @@ body {
   
   } 
  
+.person-tit{
+position: relative;
+    bottom: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+.person-name{
+position: relative;
+    bottom: 10px;
+  margin: 0px;
+  padding: 0px;
+}
 #p1_details{
   display:none;
 }
@@ -184,6 +196,7 @@ body {
 #p2_details{
   display:none;
 }
+
 
 #p2:hover #p2_details {
     display:block;

@@ -1,0 +1,7 @@
+img.card-img-top{
+  background-color: black;
+}
+
+img.card-img-top:hover{
+  background-color: rgba(0,0,0,0.5);
+}

@@ -1,4 +1,4 @@
-const searchInput = document.getElementById("searchInput");
+const searchInput = document.querySelector(".form-control");
 var searchList = document.createElement("ul");
 searchList.className="list-group";
 document.querySelector("main").insertBefore(searchList,document.querySelector("main").firstChild);

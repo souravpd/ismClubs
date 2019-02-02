@@ -156,3 +156,44 @@ body {
   .socio{
     font-size: 260%; color: floralwhite; 
   }
+
+  .img-cap{
+     position: relative;
+  bottom: 60px;
+   margin: 0px;
+  padding: 0px;
+ 
+  }
+
+  .img-subcap{
+    position: relative;
+    bottom: 40px;
+  margin: 0px;
+  padding: 0px;
+  
+  } 
+ 
+#p1_details{
+  display:none;
+}
+
+#p1:hover #p1_details {
+    display:block;
+}
+
+#p2_details{
+  display:none;
+}
+
+#p2:hover #p2_details {
+    display:block;
+}
+
+#p3_details{
+  display:none;
+}
+
+#p3:hover #p3_details {
+    display:block;
+}
+ 

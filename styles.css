@@ -1,6 +1,7 @@
 
 body {
     font-size: .875rem;
+    overflow-x: hidden;  
   }
   
   .feather {

@@ -1,138 +1,309 @@
-    <!-- DOCUMENT START -->
+<!-- DOCUMENT START -->
 <!doctype html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
+  <title>LCI </title>
+  <link rel="icon" href="img/lci_logo.png" type="image/png" />
+  <link rel="shortcut icon" href="img/lci_logo.png" type="image/png" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
-  <link href="club.css" rel="stylesheet">
-
-  <!-- For Favicon -->
-  <link rel="icon" type="image/png" href="img/lci_logo.png">
-  <title>LCI</title>
-
+  <link href="styles.css" rel="stylesheet">
 </head>
 
-<body id="thin" style="padding-top: 0px">
-<header class="jumbotron" style="background: url(img/camera.jpeg) no-repeat center center fixed;
+<body>
+
+  <!-- TOP NAVIGATION -->
+
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Sign in</a>
+      </li>
+    </ul>
+  </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
+  <!-- SIDEBAR -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div>
+          
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link " href="#">
+
+                Light Camera ISM
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" title="About the club" data-placement="right" href="#abt"><span class="fa fa-info fa-lg"></span> About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="View our <br> Hall of Fame" data-placement="right" href="#"><span class="fa fa-trophy fa-lg"></span> Achievements</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" data-toggle="tooltip" data-html="true" title="View details about <br> events hosted by club" data-placement="right" href="#"><span class="fa fa-calendar fa-lg"></span> Events</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" data-toggle="tooltip" title="View gallery" data-placement="right" href="#"><span class="fa fa-image fa-lg"></span> Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="Answers to general <br> queries about club" data-placement="right" href="#"><span class="fa fa-envelope fa-lg"></span> FAQs</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+          </li>
+          </ul>
+    </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+      <!-- MAIN WRAPPER CONTENT -->
+      <!-- JUMBOTRON -->
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark my-4 w-100" style="background: url(img/camera.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;">
-       <nav class="navbar navbar-dark navbar-expand-sm trans fixed-top">
-        <div class="container">
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                     <a class="navbar-brand mr-3" href="#"><img src="img/lci_logo.png" height="50" width="50"></a>
-                   <a href="#"> <div id="tit"> <b>  LIGHTS CAMERA ISM </b>&nbsp; &nbsp;</div></a>
-                 <div class="collapse navbar-collapse" id="Navbar">
-
-                <ul class="navbar-nav mr-auto">
-
-                <li class="nav-item mr-3 d-block d-md-none d-lg-block"><a class="nav-link" data-toggle="tooltip" title="About the club" data-placement="bottom" href="#"><span class="fa fa-info fa-lg"></span> About &nbsp; us</a></li>
-  
-                <li class="nav-item mr-3"><a class="nav-link" data-toggle="tooltip" data-html="true" title="View our <br> Hall of Fame" data-placement="bottom" href="#"><span class="fa fa-trophy fa-lg"></span> Achievements</a></li>
-  
-                <li class="nav-item mr-3"><a class="nav-link" data-toggle="tooltip" data-html="true" title="View details about <br> events hosted by club" data-placement="bottom" href="#"><span class="fa fa-calendar fa-lg"></span> Events</a></li>
-                
-                    <li class="nav-item mr-3"><a class="nav-link" data-toggle="tooltip" title="View gallery" data-placement="bottom" href="#"><span class="fa fa-image fa-lg"></span> Gallery</a></li>
-                    <li class="nav-item mr-3"><a class="nav-link" data-toggle="tooltip" data-html="true" title="Answers to general <br> queries about club" data-placement="bottom" href="#"><span class="fa fa-envelope fa-lg"></span> FAQs</a></li>
-
-                    <li class="nav-item mr-3"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
-
-                
-                </ul>           
-             </div>
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">Lights Camera ISM</h1>
+          <p class="lead my-3">The official Filmography club of IIT (ISM) Dhanbad. In ----, the foundation of LCI was laid out. However, the club developed greatly in ----. <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">
+                GET. SET. SHOOT</a></p>
         </div>
-                <span class="navbar-text ml-sm-3 offset-4 offset-sm-0">
-                    <a data-toggle="tooltip" data-html="true" title="Visit the home page <br> of <strong>IIT (ISM) Gymkhana </strong>" data-placement="bottom" href="index.html">
-                   <span class="fa fa-home fa-lg"></span> IIT (ISM) Gymkhana </a>
-                </span> 
-            
-    </nav>
- 
-        <div class="container">
-        <p align="center">
- <a role="button" class="btn btn-info btn-lg"  id="about_btn" href="#about">About Us</a>	
-  </p>
-  </div>      
-    </header>
-   
-
-   <div class="container">
-   	
-   	<div class="row row-content" id="about">
-   	<div class=" col-12 col-md-10">
-    <p align="center">
-    <div class="subtitle"> About Us </div>
-
-    <br>
-    <br><br><br>
-    The official Filmography club of IIT (ISM) Dhanbad. In ----, the foundation of LCI was laid out. However, the club developed greatly in ----. <br> <br>We learn to make films in the club.
+      </div>
+      <!-- CARDS -->
+ <div class="row mb-0">
+        <div class="col-md-6" id="abt">    
+      <div class="card text-white bg-secondary mb-3" >
+  <div class="card-header">About Us</div>
+  <div class="card-body">
+    <h5 class="card-title">The Official Filmography club of IIT (ISM)</h5>
+    <p class="card-text">We learn to make films in the club.
 Although group classes are definitely fun, individual training sessions give a chance to express emotions in full. If you are a beginning filmaker and want to get some confidence before participating in group classes – it's a great possibility for you. Pro filmaker with a level way above average looking to maintain their skill are welcome here too. Our experts can make a new movie per your request or come up with a unique movie specifically for you.
 <br><br>
 We make Screenplays for various skits
 What's the better way for a skit to succed? You don't need any previous acting experience to be the best writer at the club. Just a little confidence and practice – and with our help the results will come very soon. </p>
+  </div>
+</div>
+</div>
+        <div class="col-md-6" id="contact">    
+      <div class="card text-white bg-secondary mb-3" >
+  <div class="card-header">Contact Us</div>
+  <div class="card-body">
+    <h5 class="card-title">Secretary</h5>
+    <p class="card-text" align="center">Mr. XYZ - +91 xxxxxxxxxx</p>
+    <h5 class="card-title">President</h5>
+    <p class="card-text" align="center">Mr. XYZ - +91 xxxxxxxxxx</p>
+    <h5 class="card-title">Vice President</h5>
+    <p class="card-text" align="center">Mr. XYZ - +91 xxxxxxxxxx</p>
 
-   	</div>
-   	</div>
-<div class="row row-content" id="about">
-   	<div class="mr-auto col-12 col-md-10">
-    About Us
-    <br><br>
-    <br><br>
-   	</div>
-   	</div>
-   	<div class="row row-content" id="about">
-   	<div class="mr-auto col-12 col-md-10">
-    About Us
-    <br><br>
-    <br><br>
-   	</div>
-   	</div>
-
-   </div>
- <footer class="footer">
-        <div class="container">
-            <div class="row align-items-center">             
-                <div class="col-4 col-sm-2">
-                   <h5>Our Address</h5>
-                    <address>
-                  SAC-201<br>
-                  MAIN CAMPUS
-            IIT (ISM),<br> DHANBAD
-            JHARKHAND, <br> INDIA, 826004<br><br>
-                        <i class="fa fa-phone fa-lg"></i>:+ 91 7765038414<br>
-                        
-                                        </address>
-                </div>
-                <div class="col-7 offset-1  col-sm-5">
-                      <p align="center">© Copyright 2018 <br>IIT-ISM DHANBAD</p>
-                
-                                    </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/14ryproductions/"><i class="fa fa-facebook"></i></a>
+    <p align="center">
+    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/14ryproductions/"><i class="fa fa-facebook"></i></a>
                         <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lightscameraism/"><i class="fa fa-instagram"></i></a>
                         <a class="btn" href="https://www.youtube.com/lightscameraism/"><span class="fa fa-youtube-play" style="font-size: 260%"></span></a>
-                    </div>
-                </div>
-           </div>
-            </div>
-    </footer>
+                      </p>
+  </div>
+</div>
+</div>
 
+</div>
+
+
+      <div class="row mb-0">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">Cultural</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Featured Event</a>
+              </h3>
+              <div class="mb-1 text-muted">Jan 23</div>
+              <p class="card-text mb-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vel eius
+                fugiat hic dolorem facilis?</p>
+              <a href="#">Continue reading</a>
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="250" height="250" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-success">Council</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Featured News</a>
+              </h3>
+              <div class="mb-1 text-muted">Jan 26</div>
+              <p class="card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cum explicabo
+                velit error aliquid eveniet!</p>
+              <a href="#">Continue reading</a>
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="250" height="250" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+
+        <!-- ALBUM CARDS-->
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+  </div>
+  </div><!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/club.js"></script>    
-
 </body>
 
 </html>

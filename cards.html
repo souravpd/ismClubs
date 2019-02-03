@@ -164,7 +164,11 @@ h2{
   <!-- TOP NAVIGATION -->
 
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+    <a class="navbar-brand col-8 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+
+     <button type="button" id="sidebarCollapse" class="col-4 btn btn-secondary d-block d-md-none">
+        <i class="fa fa-align-justify"></i> <span>Menu</span>
+      </button>   
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
@@ -192,7 +196,7 @@ h2{
 
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar">
         <div class="sidebar-sticky">
 
           <ul class="nav flex-column">
@@ -440,6 +444,7 @@ for (i = 0; i < acc.length; i++) {
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="search.js"></script>
     <script src="app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>rds -->

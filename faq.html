@@ -20,7 +20,11 @@
   <!-- TOP NAVIGATION -->
 
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+   <a class="navbar-brand col-8 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+
+     <button type="button" id="sidebarCollapse" class="col-4 btn btn-secondary d-block d-md-none">
+        <i class="fa fa-align-justify"></i> <span>Menu</span>
+      </button> 
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
@@ -48,44 +52,39 @@
 
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar">
         <div class="sidebar-sticky">
 
-          <ul class="nav flex-column">
+         <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link " href="#">
-
+          <a class="nav-link" data-toggle="tooltip" data-html="true" title="Visit the home page <br> of <strong>IIT (ISM) Gymkhana </strong>" data-placement="right" href="index.html"><span class="fa fa-home fa-lg"></span>
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="View the various student <br> <strong>clubs</strong> of IIT (ISM)" data-placement="right" href="k.html"> <span class="fa fa-tachometer fa-lg"></span>
                 Clubs
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="events.html">
-                <span class="sr-only">(current)</span>
+                <a class="nav-link" data-toggle="tooltip" data-html="true" title="View various upcoming &<br> past <strong>events</strong> of IIT (ISM)" data-placement="right" href="eventsnew.html"> <span class="fa fa-snowflake-o fa-lg"></span>
                 Events
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Blog
+               <a class="nav-link" data-toggle="tooltip" data-html="true" title="View blog of <br> IIT (ISM) Gymkhana" data-placement="right" href="#"> <span class="fa fa-pencil fa-lg"></span>
+                    Blog
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Facilities
+               <a class="nav-link active" data-toggle="tooltip" data-html="true" title="Answers to <br> general queries" data-placement="right" href="faq.html"> <span class="fa fa-question fa-lg"></span>
+                    FAQs
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="layers"></span>
-                Council
-              </a>
-            </li>
-          </ul>
+           
+
+                     </ul>
+
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
           <span>User Section</span>
           <a class="d-flex align-items-center text-muted" href="#">
@@ -93,207 +92,246 @@
           </a>
         </h6>
         <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Merchandise
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Calendar
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Contact
-            </a>
-          </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="false" title="View Calendar" data-placement="right" href="calendar.html"> <span class="fa fa-calendar fa-lg"></span>
+                    Calendar
+              </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="false" title="Contact us" data-placement="right" href="contact.html"> <span class="fa fa-address-card fa-lg"></span>
+                    Contact
+              </a>
+            </li>     
         </ul>
     </div>
     </nav>
     <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4" style="overflow:hidden;">
-      <div style="position:absolute; width:100%;">
+        <div class="container" style="width:100%;">
+            <div class="row">
+              <div class="col-sm" >
+                <!--- Card 1 -->
+            <div class="card" style=" position:relative; margin-top:10px; margin-left:2%; flex-wrap:nowrap ; background-color:#f2f2f2;">
 
-        <!--- Card 1 -->
-            <div class="card" style="width:46%; position:relative; margin-top:10px; margin-left:2%;  background-color:#f2f2f2;">
+                <div class="card-body">
+                  <h5 class="card-title">What is Gymkhana?</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <p>
+              <a class="btn btn-primary" id="card1" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                View More
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
+              </div>
+              </div>
+              <script>
+                var card1 = getElementById("collapseExample1");
+                window.addEventListener("click",foo());
+                 function foo(){
+                  getElementById("card1").toggle("collapse");
+                }
+              </script>
+    
+    
+              </div>
+              <div class="col-sm">
+                 <!--Card 2 -->
 
-            <div class="card-body">
-              <h5 class="card-title">What is Gymkhana?</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
-            View More
-          </a>
-        </p>
-        <div class="collapse" id="collapseExample1">
-          <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          <div class="card" style=" position:relative; margin-top:10px; margin-left:2%; flex-wrap:wrap ; background-color:#f2f2f2;">
+
+              <div class="card-body">
+                <h5 class="card-title">What is gymkhana?</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+              View More
+              </a>
+              </p>
+              <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+              </div>
+              </div>
+              </div>
+    
+              </div>
+              <div class="container" style="width:100%;">
+                  <div class="row">
+                      <div class="col-sm" >
+                 <!-- Card3-->
+
+          <div class="card" style=" position:relative; margin-left:2%; margin-top:10px;flex-wrap:nowrap ;  background-color:#f2f2f2;">
+
+
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
+              View More
+              </a>
+              </p>
+              <div class="collapse" id="collapseExample5">
+              <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              <div class="col-sm">
+                  <!--Card4-->
+
+          <div class="card" style=" position:relative; margin-left:2%; margin-top:10px;flex-wrap:nowrap ; background-color:#f2f2f2;">
+
+
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
+              View More
+              </a>
+              </p>
+              <div class="collapse" id="collapseExample7">
+              <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+              </div>
+              </div>
+              </div>
+    
+    
+    
+    
+          
+    
+              </div>
+              </div>
+              </div>
+              <div class="container" style="width:100%;">
+                  <div class="row">
+              <div class="col-sm">
+                <!--Card 5 -->
+
+<div class="card" style=" position:relative; width:100%; margin-left:2%; margin-top:10px; flex-wrap:nowrap ; background-color:#f2f2f2;">
+
+
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+    View More
+    </a>
+    </p>
+    <div class="collapse" id="collapseExample3">
+    <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+    </div>
+    </div>
+    </div>
+              </div>
+              <div class="col-sm">
+                <!--card6-->
+
+<div class="card" style=" position:relative; margin-left:2%; margin-top:10px;  background-color:#f2f2f2;">
+
+
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+    View More
+    </a>
+    </p>
+    <div class="collapse" id="collapseExample4">
+    <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+              </div>
+              </div>
+               </div>
+               <div class="container" style="width:100%;">
+                  <div class="row">
+                  
+              <div class="col-sm">
+                <!--Card7-->
+
+<div class="card" style=" position:relative; margin-left:2%; margin-top:10px; background-color:#f2f2f2; ">
+
+
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
+    View More
+    </a>
+    </p>
+    <div class="collapse" id="collapseExample6">
+    <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+              </div>
+              <div class="col-sm">
+                <!--Card8-->
+
+<div class="card" style=" position:relative; margin-left:2%; margin-top:10px;  background-color:#f2f2f2;">
+
+
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
+    View More
+    </a>
+    </p>
+    <div class="collapse" id="collapseExample8">
+    <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+    </div>
+    </div>
+    </div>
+
+              </div>
+            </div>
           </div>
-        </div>
-          </div>
-          </div>
+        
+      
 
-          <!--Card 2 -->
-
-          <div class="card" style="width:46%; position:relative; margin-top:10px; margin-left:2%;  background-color:#f2f2f2;">
-
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-          View More
-          </a>
-          </p>
-          <div class="collapse" id="collapseExample2">
-          <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-          </div>
-          </div>
-          </div>
-          </div>
-
-          <!-- Card3-->
-
-          <div class="card" style="width:46%; position:relative; margin-left:2%; margin-top:10px;  background-color:#f2f2f2;">
+                 
+         
 
 
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
-          View More
-          </a>
-          </p>
-          <div class="collapse" id="collapseExample5">
-          <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-          </div>
-          </div>
-          </div>
-          </div>
-
-
-          <!--Card4-->
-
-          <div class="card" style="width:46%; position:relative; margin-left:2%; margin-top:10px; background-color:#f2f2f2;">
-
-
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
-          View More
-          </a>
-          </p>
-          <div class="collapse" id="collapseExample7">
-          <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-          </div>
-          </div>
-          </div>
-          </div>
+        
 
 
 
 
-      </div>
 
 
 
 
-<!--Card 5 -->
-
-<div class="card" style="width:46%; position:relative; margin-left:52%; margin-top:10px; width:46.5%; background-color:#f2f2f2;">
-
-
-<div class="card-body">
-  <h5 class="card-title">Special title treatment</h5>
-  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  <p>
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
-View More
-</a>
-</p>
-<div class="collapse" id="collapseExample3">
-<div class="card card-body">
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</div>
-</div>
-</div>
-</div>
-
-<!--card6-->
-
-<div class="card" style="width:46%; position:relative; margin-left:52%; margin-top:10px; width:46.5%;  background-color:#f2f2f2;">
-
-
-<div class="card-body">
-  <h5 class="card-title">Special title treatment</h5>
-  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  <p>
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
-View More
-</a>
-</p>
-<div class="collapse" id="collapseExample4">
-<div class="card card-body">
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</div>
-</div>
-</div>
-</div>
-
-
-
-<!--Card7-->
-
-<div class="card" style="width:46%; position:relative; margin-left:52%; margin-top:10px; width:46.5%; background-color:#f2f2f2; ">
-
-
-<div class="card-body">
-  <h5 class="card-title">Special title treatment</h5>
-  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  <p>
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
-View More
-</a>
-</p>
-<div class="collapse" id="collapseExample6">
-<div class="card card-body">
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</div>
-</div>
-</div>
-</div>
-
-
-
-<!--Card8-->
-
-<div class="card" style="width:46%; position:relative; margin-left:52%; margin-top:10px; width:46.5%; background-color:#f2f2f2;">
-
-
-<div class="card-body">
-  <h5 class="card-title">Special title treatment</h5>
-  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-  <p>
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
-View More
-</a>
-</p>
-<div class="collapse" id="collapseExample8">
-<div class="card card-body">
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-</div>
-</div>
-</div>
-</div>
 
 
 
@@ -308,6 +346,7 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
   
     <script src="search.js"></script>
     <script src="app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

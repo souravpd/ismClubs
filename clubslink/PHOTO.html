@@ -26,8 +26,12 @@
   <!-- TOP NAVIGATION -->
 
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+   <a class="navbar-brand col-8 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+
+    <button type="button" id="sidebarCollapse" class="col-4 btn btn-secondary d-block d-md-none">
+        <i class="fa fa-align-justify"></i> <span>Menu</span>
+      </button>
+       <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
         <a class="nav-link" href="#">Sign in</a>
@@ -54,44 +58,38 @@
 
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar">
         <div class="sidebar-sticky">
 
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link " href="index.html">
-
+          <a class="nav-link" data-toggle="tooltip" data-html="true" title="Visit the home page <br> of <strong>IIT (ISM) Gymkhana </strong>" data-placement="right" href="../index.html"><span class="fa fa-home fa-lg"></span>
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link active" data-toggle="tooltip" data-html="true" title="View the various student <br> <strong>clubs</strong> of IIT (ISM)" data-placement="right" href="../k.html"> <span class="fa fa-tachometer fa-lg"></span>
                 Clubs
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="events.html">
-                <span class="sr-only">(current)</span>
+                <a class="nav-link" data-toggle="tooltip" data-html="true" title="View various upcoming &<br> past <strong>events</strong> of IIT (ISM)" data-placement="right" href="../eventsnew.html"> <span class="fa fa-snowflake-o fa-lg"></span>
                 Events
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Blog
+               <a class="nav-link" data-toggle="tooltip" data-html="true" title="View blog of <br> IIT (ISM) Gymkhana" data-placement="right" href="#"> <span class="fa fa-pencil fa-lg"></span>
+                    Blog
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Facilities
+               <a class="nav-link" data-toggle="tooltip" data-html="true" title="Answers to <br> general queries" data-placement="right" href="../faq.html"> <span class="fa fa-question fa-lg"></span>
+                    FAQs
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="layers"></span>
-                Council
-              </a>
-            </li>
-          </ul>
+           
+
+                     </ul>
         <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
           <span>User Section</span>
           <a class="d-flex align-items-center text-muted" href="#">
@@ -99,24 +97,16 @@
           </a>
         </h6>
         <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Merchandise
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="calendar.html">
-              <span data-feather="file-text"></span>
-              Calendar
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="file-text"></span>
-              Contact
-            </a>
-          </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="false" title="View Calendar" data-placement="right" href="../calendar.html"> <span class="fa fa-calendar fa-lg"></span>
+                    Calendar
+              </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="false" title="Contact us" data-placement="right" href="../contact.html"> <span class="fa fa-address-card fa-lg"></span>
+                    Contact
+              </a>
+            </li>     
         </ul>
     </div>
     </nav>
@@ -139,7 +129,7 @@
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
  
-    <a href="clubslink/CULTURAL.html" class="btn btn-primary" class="fr">FOTOFREAKS</a>
+    <a href="../clubslink/CULTURAL.html" class="btn btn-primary" class="fr">FOTOFREAKS</a>
 
 </div>
 </div>
@@ -150,7 +140,7 @@
     <h5 class="card-title"></h5>
     <p class="card-text"></p>
  
-    <a href="clubslink/CULTURAL.html" class="btn btn-primary" class="fr">ARTFREAKS</a>
+    <a href="../clubslink/CULTURAL.html" class="btn btn-primary" class="fr">ARTFREAKS</a>
 
 </div>
 </div>
@@ -166,6 +156,7 @@
     <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
      <script src="../search.js"></script>
      <script src="../app.js"></script>
+      <script src="../js/script.js"></script>
 </body>
 
 </html>

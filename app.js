@@ -16,7 +16,7 @@ function add(obj){
     searchResults.appendChild(li);    
 }
 
-searchInput.addEventListener("mouseout", reset);
+searchInput.addEventListener("blur", reset);
 
 function reset(){
     searchResults.innerHTML = "";

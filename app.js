@@ -15,6 +15,12 @@ function add(obj){
     li.appendChild(link);
     searchResults.appendChild(li);    
 }
+
+searchInput.addEventListener("blur", reset);
+
+function reset(){
+    searchResults.innerHTML = "";
+}
 function search(e) {
     searchResults.innerHTML = "";
     const searchValue = e.target.value.toLowerCase();

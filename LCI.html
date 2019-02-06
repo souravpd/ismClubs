@@ -20,7 +20,12 @@
   <!-- TOP NAVIGATION -->
 
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">IIT ISM Cultural</a>
+    <a class="navbar-brand col-8 col-md-2 mr-0" href="index.html">IIT ISM Gymkhana</a>
+
+        <button class="navbar-toggler btn btn-dark col-4 d-block d-md-none" id="sidebarCollapse" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
@@ -48,12 +53,12 @@
 
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+     <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar">
         <div>
           
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <a class="nav-link active" href="#">
 
                 Light Camera ISM
               </a>
@@ -96,7 +101,7 @@
       </div>
       <!-- CARDS -->
  <div class="row mb-0">
-        <div class="col-md-6" id="abt">    
+        <div class="col-lg-6" id="abt">    
       <div class="card text-white bg-secondary mb-3" >
   <div class="card-header">About Us</div>
   <div class="card-body"><br>
@@ -106,44 +111,46 @@ Although group classes are definitely fun, individual training sessions give a c
 <br><br>
 We make Screenplays for various skits
 What's the better way for a skit to succed? You don't need any previous acting experience to be the best writer at the club. Just a little confidence and practice – and with our help the results will come very soon. </p>
-<br>
   </div>
 </div>
 </div>
-        <div class="col-md-6" id="contact">    
+        <div class="col-lg-6" id="contact">    
       <div class="card text-white bg-secondary mb-3" >
   <div class="card-header">Contact Us</div>
   <div class="card-body">
    <div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="img/face.jpg" alt="Pic">
+  <div class="card" id="p1">
+    <img class="card-img-top" src="img/face.jpg" alt="Pic" id="p1_img">
+    <div id="p1_details">
+    <p align="center"> <em class="text-white bg-dark img-subcap">abc@xyz.com</em></p>
+    <p align="center"> <em class="text-white bg-dark img-cap">+91 xxxxxxxxxx</em></p>
+    </div>
     <div class="card-body">
       <h6 class="card-title text-primary">Faculty Advisor</h6>
-      <br>
       <p class="card-text text-secondary">Mr. XYZ</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">+91 xxxxxxxxxx</small>
-    </div>
+      
   </div>
-  <div class="card">
-    <img class="card-img-top" src="img/face.jpg" alt="Pic">
+  <div class="card" id="p2">
+    <img class="card-img-top" src="img/face.jpg" alt="Pic" id="p2_img">
+    <div id="p2_details">
+    <p align="center"> <em class="text-white bg-dark img-subcap">abc@xyz.com</em></p>
+    <p align="center"> <em class="text-white bg-dark img-cap">+91 xxxxxxxxxx</em></p>
+    </div>
     <div class="card-body">
-      <h6 class="card-title text-primary">Sudent Coordinator</h6>
-      <p class="card-text text-secondary">Mr. XYZ</p>
+      <h6 class="card-title text-primary person-tit">Sudent Coordinator</h6>
+      <p class="card-text text-secondary person-name">Mr. XYZ</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">+91 xxxxxxxxxx</small>
+     </div>
+  <div class="card" id="p3" >
+    <img class="card-img-top" src="img/face.jpg" alt="Pic" id="p3_img">
+   <div id="p3_details">
+    <p align="center"> <em class="text-white bg-dark img-subcap">abc@xyz.com</em></p>
+    <p align="center"> <em class="text-white bg-dark img-cap">+91 xxxxxxxxxx</em></p>
     </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="img/face.jpg" alt="Pic">
-    <div class="card-body">
-      <h6 class="card-title text-primary">Sudent Coordinator</h6>
-      <p class="card-text text-secondary">Mr. XYZ</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">+91 xxxxxxxxxx</small>
+     <div class="card-body">
+      <h6 class="card-title text-primary person-tit">Sudent Coordinator</h6>
+      <p class="card-text text-secondary person-name">Mr. XYZ</p>
     </div>
   </div>
 </div><br>    <p align="center">
@@ -358,11 +365,11 @@ What's the better way for a skit to succed? You don't need any previous acting e
         <div id="faq">
                         <div class="card">
                         <div class="card-header" role="tab" id="q1_head">
-                        <h4 class="mb-0">
+                        <h5 class="mb-0">
                             <a class="collapsed" data-toggle="collapse" data-target="#q1_ans">
                             Why should I join Lights Camera ISM?
                             </a>
-                        </h4>
+                        </h5>
                         </div>
                         <div class="collapse show" id="q1_ans" data-parent="#faq">
                             <div class="card-body">
@@ -373,11 +380,11 @@ What's the better way for a skit to succed? You don't need any previous acting e
                  
                   <div class="card">
                             <div class="card-header" role="tab" id="q2_head">
-                            <h4 class="mb-0">
+                            <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" data-target="#q2_ans">
                                 What is the schedule of club activities?
                                 </a>
-                            </h4>
+                            </h5>
                         </div>
                         <div class="collapse" id="q2_ans" data-parent="#faq">
                             <div class="card-body">
@@ -388,11 +395,11 @@ What's the better way for a skit to succed? You don't need any previous acting e
 
                     <div class="card">
                             <div class="card-header" role="tab" id="q3_head">
-                            <h4 class="mb-0">
+                            <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" data-target="#q3_ans">
                                  What are the various activities counducted in this club?
                                 </a>
-                            </h4>
+                            </h5>
                         </div>
                         <div class="collapse" id="q3_ans" data-parent="#faq">
                             <div class="card-body">
@@ -402,11 +409,11 @@ What's the better way for a skit to succed? You don't need any previous acting e
                     </div>
                     <div class="card">
                             <div class="card-header" role="tab" id="q4_head">
-                            <h4 class="mb-0">
+                            <h5 class="mb-0">
                                 <a class="collapsed" data-toggle="collapse" data-target="#q4_ans">
                                 What is the recruitement procedure of the club?
                                 </a>
-                            </h4>
+                            </h5>
                         </div>
                         <div class="collapse" id="q4_ans" data-parent="#faq">
                             <div class="card-body">
@@ -425,10 +432,10 @@ What's the better way for a skit to succed? You don't need any previous acting e
 
     <script src="jquery/dist/jquery.slim.min.js"></script>
     <script src="popper.js/dist/umd/popper.min.js"></script>
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/club.js"></script>    
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>    
     <script src="search.js"></script>
     <script src="app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

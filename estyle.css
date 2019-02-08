@@ -15,31 +15,37 @@ div.overlay-image:hover{
   background-color: rgba(0,0,0,0.7);
   color: white;
 }
-div.links{
-  background-color: rgba(0,0,0,0);
-  position: absolute;
-  color: rgba(0,0,0,0);
-  width: 100%;
-  height: 100%;
+h5.title1{
+  text-align: center;
+  font-family: monospace;
+  font-size: xx-large;
+  margin-top: 7%;
 }
-div.links:hover{
-  color: white;
+h5.title1:hover{
+  color: rgb(0,123,255);
+}
+a.linkbutton{
+  color: rgba(0,0,0,0);
+  align-content: center;
+  font-size: 70px;
+  margin: auto;
+}
+a.linkbutton:hover{
+  color: rgb(0,123,255);
 }
 h5.title{
   text-align: center;
   font-family: monospace;
   font-size: xx-large;
   margin-top: 7%;
+  color: white;
 }
 h5.title:hover{
   color: rgb(0,123,255);
 }
-a.linkbutton{
-  color: rgba(0,0,0,0.7);
-  align-content: center;
-  font-size: 120px;
-  margin: auto;
+i.fa fa-facebook{
+  color: white;
 }
-a.linkbutton:hover{
-  color: rgb(255,255,255);
+i.fa fa-facebook:hover{
+   color: rgb(0,123,255);
 }

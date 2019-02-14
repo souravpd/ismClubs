@@ -57,7 +57,7 @@ body {
     z-index: 1000; /* Behind the navbar */
     padding: 48px 0 0; /* Height of navbar */
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  }
+     }
   
   .sidebar-sticky {
     position: relative;
@@ -66,12 +66,13 @@ body {
     padding-top: .5rem;
     overflow-x: hidden;
     overflow-y: hidden;
+    
       }
 
   .sidebar-responsive{
     margin-top: 80px;
     max-width: 40vh;
-    max-height: 75vh
+    max-height: 75vh;
   }
 
   .bd-placeholder-img {

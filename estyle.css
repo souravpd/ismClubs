@@ -1,9 +1,3 @@
-img.card-img-top{
-  background-color: black;
-}
-img.card-img-top:hover{
-  background-color: black;
-}
 div.overlay-image{
   background-color: rgba(0,0,0,0);
   position: absolute;
@@ -12,34 +6,24 @@ div.overlay-image{
   height: 100%;
 }
 div.overlay-image:hover{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   color: white;
 }
-div.links{
-  background-color: rgba(0,0,0,0);
-  position: absolute;
-  color: rgba(0,0,0,0);
-  width: 100%;
-  height: 100%;
-}
-div.links:hover{
-  color: white;
-}
-h5.title{
+h5.title1{
   text-align: center;
   font-family: monospace;
   font-size: xx-large;
-  margin-top: 7%;
+  margin-top: 10%;
+  font-size: 50px;
+}
+h5.title1:hover{
+  color: rgb(0,123,255);
+}
+h5.title{
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
 }
 h5.title:hover{
   color: rgb(0,123,255);
-}
-a.linkbutton{
-  color: rgba(0,0,0,0.7);
-  align-content: center;
-  font-size: 120px;
-  margin: auto;
-}
-a.linkbutton:hover{
-  color: rgb(255,255,255);
 }

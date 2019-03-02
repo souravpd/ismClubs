@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>IIT ISM GYMKHANA</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+  <link href="styles.css" rel="stylesheet">  
+  <style type="text/css">
+
+
+{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+ background-color: white;
+}
+.main{
+ margin-top: 20px;
+ text-align: center;
+ margin-left: 5px;
+ flex-wrap: wrap;
+}
+.card{
+  margin-top: 20px;
+     width: 40%;
+     display: inline-flex;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2.35%;
+     background-color: #f8f9fa;
+     margin-left: 40px;
+   
+    }
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 10 px;
+  
+ 
+ }
+ .image img:hover{
+  opacity: 0.4
+ }
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+h2{
+  font-size: 40px;
+  font-size: bold;
+ }
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.accordion{
+  margin-top: 40px;
+  
+  margin-bottom: 10px;
+  background-color: blue;
+  color:white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  transition: max-height 0.2s ease-out;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.accordion:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.accordi{
+  margin-top: 40px;
+  
+  margin-bottom: 10px;
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  transition: max-height 0.2s ease-out;
+}
+.active, .accordi:hover {
+  background-color: #ccc;
+}
+.accordi:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.accord{
+  margin-top: 40px;
+  
+  margin-bottom: 10px;
+  background-color:blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  transition: max-height 0.2s ease-out;
+}
+.active, .accord:hover {
+  background-color: #ccc;
+}
+.accord:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.accor{
+  margin-top: 40px;
+  
+  margin-bottom: 10px;
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  padding:10px;
+  transition: max-height 0.2s ease-out;
+}
+.active, .accor:hover {
+  background-color: #ccc;
+}
+.accor:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body id="thin">
+
+  <!-- TOP NAVIGATION -->
+
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-8 col-md-2 mr-0" href="index.html">IIT ISM Cultural</a>
+
+        <button class="navbar-toggler btn btn-dark col-4 d-block d-md-none" id="sidebarCollapse" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+
+    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item text-nowrap">
+        <a class="nav-link" href="#">Sign in</a>
+      </li>
+    </ul>
+  </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
+  <!-- SIDEBAR -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar">
+        <div class="sidebar-sticky">
+
+          <ul class="nav flex-column">
+            <li class="nav-item">
+          <a class="nav-link" data-toggle="tooltip" data-html="true" title="Visit the home page <br> of <strong>IIT (ISM) Gymkhana </strong>" data-placement="right" href="index.html"><span class="fa fa-home fa-lg"></span>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="View the various student <br> <strong>clubs</strong> of IIT (ISM)" data-placement="right" href="k.html"> <span class="fa fa-tachometer fa-lg"></span>
+                Clubs
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tooltip" data-html="true" title="View various upcoming &<br> past <strong>events</strong> of IIT (ISM)" data-placement="right" href="eventsnew.html"> <span class="fa fa-snowflake-o fa-lg"></span>
+                Events
+              </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="true" title="View blog of <br> IIT (ISM) Gymkhana" data-placement="right" href="#"> <span class="fa fa-pencil fa-lg"></span>
+                    Blog
+              </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="true" title="Answers to <br> general queries" data-placement="right" href="faq.html"> <span class="fa fa-question fa-lg"></span>
+                    FAQs
+              </a>
+            </li>
+           
+
+                     </ul>
+
+        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+          <span>User Section</span>
+          <a class="d-flex align-items-center text-muted" href="#">
+            <span data-feather="plus-circle"></span>
+          </a>
+        </h6>
+        <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+               <a class="nav-link" data-toggle="tooltip" data-html="false" title="View Calendar" data-placement="right" href="calendar.html"> <span class="fa fa-calendar fa-lg"></span>
+                    Calendar
+              </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link active" data-toggle="tooltip" data-html="false" title="Contact us" data-placement="right" href="#"> <span class="fa fa-address-card fa-lg"></span>
+                    Contact
+              </a>
+            </li>     
+        </ul>
+    </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+</head>
+
+
+<body>
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="img/face.jpg">
+</div>
+<div class="title">
+ <h2>
+President</h2>
+</div>
+<div class="des">
+ <p>
+You can Add Description Here...</p>
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+<script type="text/javascript">
+ var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/face.jpg">
+</div>
+<div class="title">
+ <h2>
+Chairperson</h2>
+</div>
+<div class="des">
+ <p>
+You can Add Description Here...</p>
+<button class="accordi">Section 1</button>
+<div class="pane">
+  <p>Lorem ipsum...</p>
+</div>
+<script type="text/javascript">
+ var acc = document.getElementsByClassName("accordi");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+    /* Toggle between hiding and showing the active panel */
+    var pane = this.nextElementSibling;
+    if (pane.style.display === "block") {
+      pane.style.display = "none";
+    } else {
+      pane.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/face.jpg">
+</div>
+<div class="title">
+ <h2>
+    Finance Convenor
+ </h2>
+</div>
+<div class="des">
+ <p>
+You can Add Description Here...</p>
+<button class="accord">Section 1</button>
+<div class="panel1">
+  <p>Lorem ipsum...</p>
+</div>
+<script type="text/javascript">
+ var acc = document.getElementsByClassName("accord");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+    /* Toggle between hiding and showing the active panel */
+    var panel1 = this.nextElementSibling;
+    if (panel1.style.display === "block") {
+      panel1.style.display = "none";
+    } else {
+      panel1.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="img/face.jpg">
+</div>
+<div class="title">
+ <h2>
+General Secretary</h2>
+</div>
+<div class="des">
+ <p>
+You can Add Description Here...</p>
+<button class="accor">Section 1</button>
+<div class="pane">
+  <p>Lorem ipsum...</p>
+</div>
+<script type="text/javascript">
+ var acc = document.getElementsByClassName("accor");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+    /* Toggle between hiding and showing the active panel */
+    var panel2 = this.nextElementSibling;
+    if (panel2.style.display === "block") {
+      panel2.style.display = "none";
+    } else {
+      panel2.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+</div>
+      </main>
+  </div>
+  </div><!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="jquery/dist/jquery.slim.min.js"></script>
+    <script src="popper.js/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>rds -->
+
+

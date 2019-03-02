@@ -1,17 +1,42 @@
 const data = [
   {
-      "field":"lightscameraism",
-      "type":"Club",
-      "website":"./LCI.html"
+      "field":"lights camera ism",
+      "type":"videography club",
+      "website":"clubs/lci.html"
   },
   {
-      "field":"abhaydramaticsclub",
-      "type":"Club",
-      "website":"./LCI.html"
+      "field":"abhay dramatics club",
+      "type":"dramatics club",
+      "website":"clubs/adc.html"
+  },
+  {
+      "field":"art freaks",
+      "type":"painting club",
+      "website":"clubs/art.html"
+  },
+  {
+      "field":"fotofreaks",
+      "type":"photography club",
+      "website":"clubs/foto.html"
+  },
+  {
+      "field":"legends in the making",
+      "type":"dance club",
+      "website":"clubs/litm.html"
+  },
+  {
+      "field":"we the crew",
+      "type":"dance club",
+      "website":"clubs/wtc.html"
+  },
+  {
+      "field":"manthan",
+      "type":"music club",
+      "website":"clubs/manthan.html"
   },
   {
       "field":"namanzelawat",
       "type":"Gsec Secretary",
-      "website":"./contact.html"
+      "website":"contact.html"
   }
 ]

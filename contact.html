@@ -57,22 +57,19 @@ body{
   padding: 10px;
   
  }
-h2{
-  font-size: 40px;
-  font-size: bold;
+h4{
+  font-weight: bold;
  }
 .des{
-  padding: 3px;
+  padding: 1px;
   text-align: center;
  
-  padding-top: 10px;
-        border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  padding-top: 3px;
 }
 .accordion{
-  margin-top: 40px;
+  margin-top: 5px;
   
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: blue;
   color:white;
   border: 1px solid black;
@@ -90,9 +87,9 @@ h2{
   cursor: pointer;
 }
 .accordi{
-  margin-top: 40px;
+  margin-top: 5px;
   
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: blue;
   color: white;
   border: 1px solid black;
@@ -110,9 +107,9 @@ h2{
   cursor: pointer;
 }
 .accord{
-  margin-top: 40px;
+  margin-top: 5px;
   
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color:blue;
   color: white;
   border: 1px solid black;
@@ -130,9 +127,9 @@ h2{
   cursor: pointer;
 }
 .accor{
-  margin-top: 40px;
+  margin-top: 5px;
   
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   background-color: blue;
   border: 1px solid black;
   color: white;
@@ -251,15 +248,16 @@ h2{
 <div class="main">
 
  <!--cards -->
-
-<div class="card">
+<div class="container">
+  <div class="row">
+<div class="col-10 col-md-4 lg-6 ml-md-auto card">
 
 <div class="image">
    <img src="img/face.jpg">
 </div>
 <div class="title">
- <h2>
-President</h2>
+ <h4>
+President</h4>
 </div>
 <div class="des">
  <p>
@@ -292,14 +290,14 @@ for (i = 0; i < acc.length; i++) {
 <!--cards -->
 
 
-<div class="card">
+<div class="col-10 col-md-4 lg-6 mr-md-auto card">
 
 <div class="image">
    <img src="img/face.jpg">
 </div>
 <div class="title">
- <h2>
-Chairperson</h2>
+ <h4>
+Chairperson</h4>
 </div>
 <div class="des">
  <p>
@@ -329,17 +327,18 @@ for (i = 0; i < acc.length; i++) {
 </div>
 </div>
 <!--cards -->
+</div>
 
-
-<div class="card">
+<div class="row">
+<div class="col-10 col-md-4 lg-6 ml-md-auto card">
 
 <div class="image">
    <img src="img/face.jpg">
 </div>
 <div class="title">
- <h2>
+ <h4>
     Finance Convenor
- </h2>
+ </h4>
 </div>
 <div class="des">
  <p>
@@ -371,14 +370,14 @@ for (i = 0; i < acc.length; i++) {
 <!--cards -->
 
 
-<div class="card">
+<div class="col-10 col-sm-4 lg-6 mr-md-auto card">
 
 <div class="image">
    <img src="img/face.jpg">
 </div>
 <div class="title">
- <h2>
-General Secretary</h2>
+ <h4>
+General Secretary</h4>
 </div>
 <div class="des">
  <p>
@@ -405,6 +404,8 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
+</div>
+</div>
 </div>
 </div>
       </main>

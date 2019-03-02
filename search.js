@@ -34,6 +34,21 @@ const data = [
       "type":"music club",
       "website":"clubs/manthan.html"
   },
+{
+      "field":"litc",
+      "type":"literature club".
+      "website":"clubs/litc.html"
+  },
+{
+      "field":"mic.drop toastmasters club",
+      "type":"literature club",
+      "website":"clubs/toast.html"
+  },
+{
+      "field":"chayanika sangh",
+      "type":"literature club",
+      "website":"clubs/chayan.html"
+  },
   {
       "field":"namanzelawat",
       "type":"Gsec Secretary",

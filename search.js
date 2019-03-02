@@ -49,6 +49,24 @@ const data = [
       "type":"literature club",
       "website":"clubs/chayan.html"
   },
+
+{
+      "field":"cyberlabs (official programming club)",
+      "type":"Programming Club",
+      "website":"clubs/cyber.html"
+  },
+
+{
+      "field":"roboism (robotics and ai club)",
+      "type":"technical club",
+      "website":"clubs/robo.html"
+  },
+
+{
+      "field":"mechismu",
+      "type":"formula racing club",
+      "website":"clubs/mechismu.html"
+  },
   {
       "field":"namanzelawat",
       "type":"Gsec Secretary",

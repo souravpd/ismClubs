@@ -16,17 +16,22 @@ function add(obj){
     searchResults.appendChild(li);    
 }
 
-searchInput.addEventListener("blur", reset);
-
 function reset(){
     searchResults.innerHTML = "";
+
 }
+
+searchInput.addEventListener("blur", setTimeOut(reset,1500));
+
 function search(e) {
     searchResults.innerHTML = "";
     const searchValue = e.target.value.toLowerCase();
     if(searchValue !== ""){
         data.forEach(function(item){
             if(item.field.toLowerCase().indexOf(searchValue)!== -1){
+                add(item);                       
+            }
+            else if(item.type.toLowerCase().indexOf(searchValue)!== -1){
                 add(item);                       
             }
         })

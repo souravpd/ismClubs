@@ -1,75 +1,70 @@
 const data = [
   {
-      "field":"lights camera ism",
-      "type":"videography club",
-      "website":"clubs/lci.html"
+      "field":"LCI (Lights Camera Ism)",
+      "type":"Videography/Filmography Club",
+      "website":"./clubs/lci.html"
   },
   {
-      "field":"abhay dramatics club",
-      "type":"dramatics club",
-      "website":"clubs/adc.html"
+      "field":"ADC (Abhay Dramatics Club)",
+      "type":"Dramatics Club",
+      "website":"./clubs/adc.html"
   },
   {
-      "field":"art freaks",
-      "type":"painting club",
-      "website":"clubs/art.html"
+      "field":"Art freaks",
+      "type":"Painting Club",
+      "website":"./clubs/art.html"
   },
   {
-      "field":"fotofreaks",
-      "type":"photography club",
-      "website":"clubs/foto.html"
+      "field":"FotoFreaks",
+      "type":"Photography Club",
+      "website":"./clubs/foto.html"
   },
   {
-      "field":"legends in the making",
-      "type":"dance club",
-      "website":"clubs/litm.html"
+      "field":"LITM (Legends In The Making)",
+      "type":"Dance Club",
+      "website":"./clubs/litm.html"
   },
   {
-      "field":"we the crew",
-      "type":"dance club",
-      "website":"clubs/wtc.html"
+      "field":"WTC (We The Crew)",
+      "type":"Dance Club",
+      "website":"./clubs/wtc.html"
   },
   {
-      "field":"manthan",
-      "type":"music club",
-      "website":"clubs/manthan.html"
+      "field":"Manthan",
+      "type":"Music Club",
+      "website":"./clubs/manthan.html"
   },
 {
-      "field":"litc",
-      "type":"literature club".
-      "website":"clubs/litc.html"
-  },
-{
-      "field":"mic.drop toastmasters club",
+      "field":"LITC (Literary Club)",
       "type":"literature club",
-      "website":"clubs/toast.html"
+      "website":"./clubs/litc.html"
   },
 {
-      "field":"chayanika sangh",
-      "type":"literature club",
-      "website":"clubs/chayan.html"
+      "field":"Mic.Drop ToastMasters Club",
+      "type":"Literature Club",
+      "website":"./clubs/toast.html"
+  },
+{
+      "field":"Chayanika Sangh",
+      "type":"Literature Club",
+      "website":"./clubs/chayan.html"
   },
 
 {
-      "field":"cyberlabs (official programming club)",
+      "field":"Cyberlabs (Official Programming Club)",
       "type":"Programming Club",
-      "website":"clubs/cyber.html"
+      "website":"./clubs/cyber.html"
   },
 
 {
-      "field":"roboism (robotics and ai club)",
-      "type":"technical club",
-      "website":"clubs/robo.html"
+      "field":"RoboISM (Robotics and AI Club)",
+      "type":"Technical Club",
+      "website":"./clubs/robo.html"
   },
 
 {
-      "field":"mechismu",
-      "type":"formula racing club",
-      "website":"clubs/mechismu.html"
-  },
-  {
-      "field":"namanzelawat",
-      "type":"Gsec Secretary",
-      "website":"contact.html"
+      "field":"Mechismu",
+      "type":"Formula Racing Club",
+      "website":"./clubs/mechismu.html"
   }
-]
+];

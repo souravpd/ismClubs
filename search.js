@@ -66,5 +66,11 @@ const data = [
       "field":"Mechismu",
       "type":"Formula Racing Club",
       "website":"./clubs/mechismu.html"
-  }
+  },
+  
+{
+    "field":"Srijan",
+    "type":"Cultural Fest",
+    "website":"https://www.srijaniitism.org/"
+}
 ];

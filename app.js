@@ -8,7 +8,7 @@ function add(obj){
     const li = document.createElement('li');
     li.className = "list-group-item";
     searchResults.style.position="absolute";
-    searchResults.style.zIndex = "1";
+    searchResults.style.zIndex = "10";
     searchResults.style.width="92.5%";
     const link = document.createElement('a');
     link.innerHTML = `Name : ${obj.field} <br> Type : ${obj.type} <br>Website : <a href="${obj.website}">Go there </a> <br>`;

@@ -1,0 +1,37 @@
+{
+  "name": "iit-ism-clubs",
+  "version": "1.0.0",
+  "description": "This is the website for IIT (ISM) Gymkhana",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/font-awesome",
+    "imagemin": "imagemin img/* -o dist/img && imagemin clubslink/images/* -o dist/clubslink/images && imagemin clubslink/images1/* -o dist/clubslink/images1/",
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin calendar.html -d dist --htmlmin -o dist/calendar.html && usemin eventsnew.html -d dist --htmlmin -o dist/eventsnew.html && usemin faq.html -d dist --htmlmin -o dist/faq.html && usemin k.html -d dist --htmlmin -o dist/k.html && usemin clubs/adc.html -d dist --htmlmin -o dist/clubs/adc.html && usemin clubs/lci.html -d dist --htmlmin -o dist/clubs/lci.html && usemin clubs/foto.html -d dist --htmlmin -o dist/clubs/foto.html && usemin clubs/art.html -d dist --htmlmin -o dist/clubs/art.html && usemin clubs/litc.html -d dist --htmlmin -o dist/clubs/litc.html && usemin clubs/litm.html -d dist --htmlmin -o dist/clubs/litm.html && usemin clubs/chayan.html -d dist --htmlmin -o dist/clubs/chayan.html && usemin clubs/cyber.html -d dist --htmlmin -o dist/clubs/cyber.html&& usemin clubs/manthan.html -d dist --htmlmin -o dist/clubs/manthan.html && usemin clubs/robo.html -d dist --htmlmin -o dist/clubs/robo.html && usemin clubs/mechismu.html -d dist --htmlmin -o dist/clubs/mechismu.html && usemin clubs/toast.html -d dist --htmlmin -o dist/clubs/toast.html && usemin clubs/wtc.html -d dist --htmlmin -o dist/wtc.html && usemin clubslink/LITERARY.html -d dist --htmlmin -o dist/clubslink/LITERARY.html && usemin clubslink/CULTURAL.html -d dist --htmlmin -o dist/clubslink/CULTURAL.html && usemin clubslink/PHOTO.html -d dist --htmlmin -o dist/clubslink/PHOTO.html && usemin clubslink/technical.html -d dist --htmlmin -o dist/clubslink/technical.html ",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souravpd/ismClubs.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "cjchirag7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souravpd/ismClubs/issues"
+  },
+  "homepage": "https://github.com/souravpd/ismClubs#readme",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.4.0",
+    "rimraf": "^2.6.3",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
+  }
+}

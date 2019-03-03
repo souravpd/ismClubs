@@ -67,7 +67,25 @@ const data = [
       "type":"Formula Racing Club",
       "website":"./clubs/mechismu.html"
   },
-  
+ 
+{
+    "field":"Book Club",
+    "type":"Literary Club",
+    "website":"./clubs/book.html"
+},
+
+{
+    "field":"E-Cell",
+    "type":"Entrepreneurship Club",
+    "website":"./clubs/e_cell.html"
+},
+
+{
+    "field":"Arka",
+    "type":"Astronomy Club",
+    "website":"./clubs/astro.html"
+},
+
 {
     "field":"Srijan",
     "type":"Cultural Fest",

@@ -1,57 +1,109 @@
 [
   {
-    "title": "Winter Sem Reg",
+    "title": "Winter Sem Registration",
     "start": "2019-01-01T13:00:00-05:00"
   },
   {
-    "title": "Long Event",
-    "start": "2019-01-07",
-    "end": "2019-01-10"
+    "title": "Last date for Registration",
+    "start": "2019-01-07T13:00:00-05:00"
   },
   {
-    "id": "999",
-    "title": "Repeating Event",
-    "start": "2019-01-09T16:00:00-05:00"
+    "title": "Republic Day Celebration",
+    "start": "2019-01-26T07:00:00-05:00"
+  },
+  
+  {
+    "title": "Basant Reunion",
+    "start": "2019-02-03",
+    "url":"https://www.iitism.ac.in/index.php/iraa/basant"
   },
   {
-    "id": "999",
-    "title": "Repeating Event",
-    "start": "2019-01-16T16:00:00-05:00"
+    "title": "Makar Sakranti",
+    "start": "2019-01-14"
   },
   {
-    "title": "Conference",
-    "start": "2019-01-11",
-    "end": "2019-01-13"
+    "title": "Mid Semester Exam",
+    "start": "2019-02-18",
+    "end": "2019-02-24" 
   },
   {
-    "title": "Meeting",
-    "start": "2019-01-12T10:30:00-05:00",
-    "end": "2019-01-12T12:30:00-05:00"
+    "title": "End Semester Exam",
+    "start": "2019-04-16",
+    "end": "2019-04-28"
   },
   {
-    "title": "Lunch",
-    "start": "2019-01-12T12:00:00-05:00"
+    "title": "Hackfest",
+    "start": "2019-03-15",
+    "end": "2019-03-18"
   },
   {
-    "title": "Meeting",
-    "start": "2019-01-12T14:30:00-05:00"
+    "title": "Registration",
+    "start": "2019-03-15T16:00:00-05:00"
   },
   {
-    "title": "Happy Hour",
-    "start": "2019-01-12T17:30:00-05:00"
+    "title": "Speech",
+    "start": "2019-03-15T19:00:00-05:00"
   },
   {
     "title": "Dinner",
-    "start": "2019-01-12T20:00:00"
+    "start": "2019-03-15T20:30:00-05:00"
   },
   {
-    "title": "Birthday Party",
-    "start": "2019-01-13T07:00:00-05:00"
+    "title": "Problem Statement",
+    "start": "2019-03-16T00:05:00-05:00"
   },
   {
-    "title": "Click for Google",
-    "url": "http://google.com/",
-    "start": "2019-01-28"
+    "title": "Snacks",
+    "start": "2019-03-16T04:00:00-05:00"
+  },
+  {
+    "title": "Breakfast",
+    "start": "2019-03-16T07:00:00-05:00"
+  },
+  {
+    "title": "Lunch",
+    "start": "2019-03-16T12:00:00-05:00"
+  },
+  {
+    "title": "Evaluation",
+    "start": "2019-03-16T18:00:00-05:00"
+  },
+  {
+    "title": "Dinner",
+    "start": "2019-03-16T20:00:00-05:00"
+  },
+  
+  {
+    "title": "Snacks",
+    "start": "2019-03-17T04:00:00-05:00"
+  },
+  {
+    "title": "Breakfast",
+    "start": "2019-03-17T07:00:00-05:00"
+  },
+  {
+    "title": "Presentation",
+    "start": "2019-03-17T15:00:00-05:00"
+  },
+  {
+    "title": "Lunch",
+    "start": "2019-03-17T18:12:00-05:00"
+  },
+  {
+    "title": "Announcement",
+    "start": "2019-03-17T18:00:00-05:00"
+  },
+  {
+    "title": "Mahashivratri",
+    "start": "2019-03-04"
+  },
+  {
+    "title": "Holi",
+    "start": "2019-03-21"
+  },
+  {
+    "title": "Mahavir Jayanti",
+    "start": "2019-04-17"
   },
   {
     "title": "Srijan",

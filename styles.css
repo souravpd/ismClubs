@@ -74,7 +74,9 @@ body {
     max-width: 40vh;
     max-height: 75vh;
   }
-
+  div[role=tab]{
+    cursor: pointer;
+  }
   .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;

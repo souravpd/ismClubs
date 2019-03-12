@@ -17,3 +17,7 @@ h5.title{
   font-size: 50px;
   text-align: center;
 }
+a.link:hover{
+  cursor: pointer;
+  color: darkblue;
+}

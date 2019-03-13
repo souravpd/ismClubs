@@ -7,7 +7,7 @@ searchInput.addEventListener("keyup", search);
 function add(obj){
     const li = document.createElement('li');
     li.className = "list-group-item";
-    searchResults.style.position="fixed";
+    searchResults.style.position="absolute";
     searchResults.style.zIndex = "10";
     searchResults.style.width="92.5%";
     const link = document.createElement('a');

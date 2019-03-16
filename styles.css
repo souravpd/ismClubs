@@ -261,6 +261,10 @@ left: 30px;
   margin-right: .75rem;
   margin-left: .75rem;
 }
+footer{
+    background-image: linear-gradient(to top, #494e54 50%,  #272c30 100%);
+
+}
 
 
 /* Featurettes

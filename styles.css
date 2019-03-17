@@ -261,6 +261,9 @@ left: 30px;
   margin-right: .75rem;
   margin-left: .75rem;
 }
+footer{
+  background-color:   #272c30;
+ }
 
 
 /* Featurettes
@@ -277,7 +280,22 @@ left: 30px;
   letter-spacing: -.05rem;
 }
 
+.footer_content{
+  color :white; font-size:1.42em; 
+}
 
+.footer_content:hover{
+  color :white;
+}
+#footr_addr{
+  color :white; font-size:1.33em;
+}
+#footr_link{
+  color:white; 
+}
+#footr_link:hover{
+  color:white
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

@@ -281,14 +281,14 @@ footer{
 }
 
 .footer_content{
-  color :white; font-size:1.42em; 
+  color :white; font-size:1.33em; 
 }
 
 .footer_content:hover{
   color :white;
 }
 #footr_addr{
-  color :white; font-size:1.33em;
+  color :white; font-size:1.2em;
 }
 #footr_link{
   color:white; 

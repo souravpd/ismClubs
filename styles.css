@@ -309,8 +309,13 @@ footer{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; !important
+  width: 100% !important;
   height: auto   !important;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;]
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */

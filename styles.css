@@ -32,7 +32,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 30px;
-    z-index: 99;
+    z-index: 101;
     border: none;
     outline: none;
     background-color: #4d4d4d;
@@ -270,7 +270,7 @@ footer{
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -281,20 +281,36 @@ footer{
 }
 
 .footer_content{
-  color :white; font-size:1.33em; 
+  color :white; font-size:1.2em; 
 }
 
 .footer_content:hover{
   color :white;
 }
 #footr_addr{
-  color :white; font-size:1.2em;
+  color :white; font-size:1.05em;
 }
 #footr_link{
   color:white; 
 }
 #footr_link:hover{
   color:white
+}
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; !important
+  height: auto   !important;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -308,12 +324,12 @@ footer{
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 3rem;
   }
 }
 
 @media (min-width: 62em) {
   .featurette-heading {
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
 }

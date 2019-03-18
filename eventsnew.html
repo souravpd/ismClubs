@@ -33,7 +33,22 @@
             <input class="form-control form-control-dark w-100" type="text" placeholder="Search for clubs, events etc." aria-label="Search">
        
   </nav>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
+ 
   <!-- SIDEBAR -->
 
   <div class="container-fluid">
@@ -144,7 +159,7 @@
       <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-4 col-lg-3 mr-auto">
             <img src="./favicon.ico" alt="" width="210" height="210"  class="rounded">
         </div>
         <!-- Grid column -->
@@ -152,10 +167,10 @@
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-2 col-lg-2 mx-auto">
   
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mb-4"></h5>
+          <h5 class="font-weight-bold text-uppercase"></h5>
   
           <ul class="list-unstyled" >
             <li>
@@ -191,10 +206,10 @@
         <hr class="clearfix w-100 d-md-none">
   
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <div class="col-md-4 col-lg-3 mx-auto">
   
           <!-- Contact details -->
-          <h5 class="font-weight-bold text-uppercase mb-4"></h5>
+          <h5 class="font-weight-bold text-uppercase"></h5>
   
           <ul class="list-unstyled">
             <li>

@@ -272,7 +272,7 @@ footer{
 ------------------------- */
 
 .featurette-divider {
-  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -336,7 +336,15 @@ footer{
     margin-top: 4rem;
   }
 }
+<<<<<<< HEAD
 
 h1{
   font-family: 'Comfortaa', cursive;
 }
+=======
+h1{
+    font-family : 'Comfortaa', cursive;
+    
+}
+    
+>>>>>>> 809a60c954af73102e2c620eafdd7096b20583e1

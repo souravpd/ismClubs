@@ -309,13 +309,13 @@ footer{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100% !important;
+  width: 100% !important ;
   height: auto   !important;
 }
 footer{
   position: absolute;
   bottom: 0;
-  width: 100%;]
+  width: 100%;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -337,4 +337,7 @@ footer{
   .featurette-heading {
     margin-top: 4rem;
   }
+}
+h1{
+  font-family: 'Comfortaa', cursive;
 }

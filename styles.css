@@ -262,6 +262,8 @@ left: 30px;
   margin-left: .75rem;
 }
 footer{
+  position:relative;
+  bottom :0px;
   background-color:   #272c30;
  }
 
@@ -312,11 +314,7 @@ footer{
   width: 100% !important ;
   height: auto   !important;
 }
-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

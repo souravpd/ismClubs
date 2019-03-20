@@ -1,6 +1,6 @@
 main{
   display: flex !important;
-  min-height: 94vh !important;
+  min-height: 88vh !important;
   flex-direction: column-reverse !important;
   justify-content: space-between!important;
   

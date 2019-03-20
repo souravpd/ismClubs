@@ -262,6 +262,8 @@ left: 30px;
   margin-left: .75rem;
 }
 footer{
+  position:relative;
+  bottom :0px;
   background-color:   #272c30;
  }
 
@@ -270,7 +272,7 @@ footer{
 ------------------------- */
 
 .featurette-divider {
-  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 4rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -289,7 +291,7 @@ footer{
 }
 #footr_addr{
   color :white; font-size:1.05em;
-}
+  margin-left : 0px;}
 #footr_link{
   color:white; 
 }
@@ -309,9 +311,10 @@ footer{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; !important
+  width: 100% !important ;
   height: auto   !important;
 }
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -333,3 +336,15 @@ footer{
     margin-top: 4rem;
   }
 }
+<<<<<<< HEAD
+
+h1{
+  font-family: 'Comfortaa', cursive;
+}
+=======
+h1{
+    font-family : 'Comfortaa', cursive;
+    
+}
+    
+>>>>>>> 809a60c954af73102e2c620eafdd7096b20583e1

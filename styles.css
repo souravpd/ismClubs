@@ -2,6 +2,7 @@
 body {
     font-size: .875rem;
     overflow-x: hidden;  
+    min-height: 100vh;
   }
   #thin::-webkit-scrollbar-track
 {

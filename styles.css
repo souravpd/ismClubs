@@ -291,7 +291,7 @@ footer{
 }
 #footr_addr{
   color :white; font-size:1.05em;
-}
+  margin-left : 0px;}
 #footr_link{
   color:white; 
 }

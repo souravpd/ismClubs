@@ -1,8 +1,14 @@
+main{
+  display: flex !important;
+  min-height: 94vh !important;
+  flex-direction: column-reverse !important;
+  justify-content: space-between!important;
+  
+}
 
 body {
     font-size: .875rem;
     overflow-x: hidden;  
-    min-height: 100vh;
   }
   #thin::-webkit-scrollbar-track
 {

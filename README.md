@@ -30,7 +30,7 @@
 <li> RoboISM - Everything missing </li>
 <li> Mechismu - photo of faculty advisor and student cordinators, description of gallery photos, FAQ missing </li>
 <li> E-cell -  </li>
-<li> Arka -  </li>
+<li> Arka - mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing </li>
 
 
 </ol>

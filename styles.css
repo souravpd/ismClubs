@@ -1,3 +1,9 @@
+main{
+  min-height: 88vh !important;
+  flex-direction: column-reverse !important;
+  justify-content: space-between!important;
+  
+}
 
 body {
     font-size: .875rem;

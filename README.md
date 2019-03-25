@@ -19,3 +19,15 @@
   <li> To add more search options, more JSON objects need to be created in search.js </li>
   </ol>
   </p>
+
+<p>  <h3>List of club information missing: <br> </h3>
+<ol>
+<li> Toastmasters - Everything missing </li>
+<li> Chayanika Sangh - Everything missing </li>
+<li> LitC - Everything except logo missing </li>
+<li> Book Club - Everything except logo missing </li>
+
+
+</ol>
+</p>
+

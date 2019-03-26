@@ -19,7 +19,7 @@
   <li> To add more search options, more JSON objects need to be created in search.js </li>
   </ol>
   </p>
-  <p> <h3>List of club information missing: <br> </h3>
+   <h3>List of club information missing: <br> </h3>
   <ol>
   
 <li>Toastmasters - Everything missing</li>
@@ -41,5 +41,4 @@
 <li>Fotofreaks-Everything Missing</li>
 <li>Clevr-mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing</li>
 <li> LCI - Everything is missing </li>
-<li> Artfreaks - Photos missing<li>
 </ol>

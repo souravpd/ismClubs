@@ -37,5 +37,8 @@
 <li>WTC - FAQs missing</li>
 <li>Udaan- Achievements,Gallery photo descriptions,some faq missing,event description missing</li>
 <li>Quiziapa- Gallery photo descriptions,some faq missing,Event description missing</li>
+<li>Artfreaks-Photos missing</li>
+<li>Fotofreaks-Everything Missing</li>
+<li>Clevr-mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing</li>
 <li> LCI - Everything is missing </li>
 

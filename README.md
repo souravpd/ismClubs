@@ -24,8 +24,8 @@
   
 <li>Toastmasters - Everything missing</li>
 <li>Chayanika Sangh - Everything missing</li>
-<li>LitC - Everything except logo missing</li>
-<li>Book Club - Everything except logo missing</li>
+<li>LitC - Everything missing</li>
+<li>Book Club - Everything missing</li>
 <li>Cyberlabs - E-mail ID and contact no., Club gallery photos and description and links missing</li>
 <li>RoboISM - Everything missing</li>
 <li>Mechismu - photo of faculty advisor and student cordinators, description of gallery photos, FAQ missing</li>
@@ -37,8 +37,8 @@
 <li>WTC - FAQs missing</li>
 <li>Udaan- Achievements,Gallery photo descriptions,some faq missing,event description missing</li>
 <li>Quiziapa- Gallery photo descriptions,some faq missing,Event description missing</li>
-<li>Artfreaks-Photos missing</li>
-<li>Fotofreaks-Everything Missing</li>
-<li>Clevr-mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing</li>
+<li>Artfreaks- Photos of achievements, FAQs, mail id and contact number of coordinators missing</li>
+<li>Fotofreaks- Everything Missing</li>
+<li>Clevr- mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing</li>
 <li> LCI - Everything is missing </li>
 </ol>

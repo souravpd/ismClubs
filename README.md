@@ -38,4 +38,5 @@
 <li>Udaan- Achievements,Gallery photo descriptions,some faq missing,event description missing</li>
 <li>Quiziapa- Gallery photo descriptions,some faq missing,Event description missing</li>
 <li> LCI - Everything is missing </li>
+<li> Artfreaks - Photos missing<li>
 

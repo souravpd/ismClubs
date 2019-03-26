@@ -1,0 +1,539 @@
+<!-- DOCUMENT START -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>Clevr</title>
+  <link rel="icon" href="../clubslink/images/clevr.png" type="image/png" />
+  <link rel="shortcut icon" href="../clubslink/images/clevr.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../bootstrap-social/bootstrap-social.css">
+  <link href="../styles.css" rel="stylesheet">
+</head>
+
+<body id="thin">
+
+  <!-- TOP NAVIGATION -->
+
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-8 col-md-2 mr-0" href="../index.html">IIT ISM Gymkhana</a>
+
+        <button class="navbar-toggler btn btn-dark col-4 d-block d-md-none" id="sidebarCollapse" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+
+    
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Search for clubs, events etc." aria-label="Search">
+          </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <script>
+    function topFunction() {
+      document.documentElement.scrollTop = 0;
+    }
+    window.onscroll = function(){
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    };
+  </script>
+  
+  <!-- SIDEBAR -->
+
+  <div class="container-fluid">
+    <div class="row">
+     <nav class="offset-7 offset-sm-9 offset-md-0 col-5 col-sm-3 col-md-2 bg-light sidebar d-none d-md-block" id="sidebar" style="z-index:2;">
+        <div>
+          
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+
+                Clevr
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="Back to IIT (ISM) <br> Gymkhana home" data-placement="right" href="../index.html"><span class="fa fa-home fa-lg"></span> Back to home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" title="About the club" data-placement="right" href="#abt"><span class="fa fa-info fa-lg"></span> About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="View our <br> Hall of Fame" data-placement="right" href="#achieve"><span class="fa fa-trophy fa-lg"></span> Achievements</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" data-toggle="tooltip" data-html="true" title="View details about <br> events hosted by club" data-placement="right" href="#event"><span class="fa fa-calendar fa-lg"></span> Events</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" data-toggle="tooltip" title="View gallery" data-placement="right" href="#gallery"><span class="fa fa-image fa-lg"></span> Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tooltip" data-html="true" title="Answers to general <br> queries about club" data-placement="right" href="#faq"><span class="fa fa-envelope fa-lg"></span> FAQs</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+          </li>
+          </ul>
+    </div>
+    </nav>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+      <!-- MAIN WRAPPER CONTENT -->
+      <!-- JUMBOTRON -->
+      <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark my-4 w-100" style="background: url(../img/clevr_bg.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">Clevr- Electronics Club</h1>
+          <p class="lead my-3">Clevr is the official electronics club of IIT(ISM) Dhanbad founded in 2018.  <p class="lead mb-0"><a  href=# class="text-white font-weight-bold">
+                Know more..</a></p>
+        </div>
+      </div>
+      <!-- CARDS -->
+ <div class="row mb-0">
+        <div class="col-lg-6" id="abt">    
+      <div class="card text-white bg-secondary mb-3" >
+  <div class="card-header">About Us</div>
+  <div class="card-body"><br>
+    <h5 class="card-title">The Official Electronics Club of IIT (ISM)</h5> <br>
+    <p class="card-text">This club has been started to provide a right balance between theoretical knowledge and its practical applications. <br>It will give an impetus to electronics based projects in the campus. These projects will help in building up the right skill sets required catering to the needs of industry.
+
+    <br>
+    <br>
+  </p>
+  </div>
+</div>
+</div>
+        <div class="col-lg-6" id="contact">    
+      <div class="card text-white bg-secondary mb-3" >
+  <div class="card-header">Contact Us</div>
+  <div class="card-body">
+   <div class="card-group">
+  <div class="card" id="p1">
+    <img class="card-img-top" src="../img/face.jpg" alt="Pic" id="p1_img">
+    <div id="p1_details">
+    <p align="center"> <em class="text-white bg-dark img-subcap">abc@xyz.com</em></p>
+    <p align="center"> <em class="text-white bg-dark img-cap">+91 xxxxxxxxxx</em></p>
+    </div>
+    <div class="card-body">
+      <h6 class="card-title text-primary">Faculty Advisor</h6>
+      <p class="card-text text-secondary">Dr. Raghvendra Kumar Chaudhary</p>
+    </div>
+      
+  </div>
+  <div class="card" id="p2">
+    <img class="card-img-top" src="../img/face.jpg" alt="Pic" id="p2_img">
+    <div id="p2_details">
+    <p align="center"> <em class="text-white bg-dark img-subcap">abc@xyz.com</em></p>
+    <p align="center"> <em class="text-white bg-dark img-cap">+91 xxxxxxxxxx</em></p>
+    </div>
+    <div class="card-body">
+      <h6 class="card-title text-primary person-tit">Student Coordinator</h6>
+      <p class="card-text text-secondary person-name">Panda Sarthak Shantanoo</p>
+    </div>
+     </div>
+</div><br>    <p align="center">
+    <a href="https://www.facebook.com/vrclevr/"><i class="fa fa-facebook fa-lg socio"></i></a> &nbsp; &nbsp;
+                        <a href="mailto:electronics@iitism.ac.in"><i class="fa fa-envelope fa-lg socio"></i></a> &nbsp; &nbsp;
+                        <a href="https://www.linkedin.com/company/vrclevr/"><span class="fa fa-linkedin fa-lg socio"></span></a>
+                      </p>
+  </div>
+</div>
+</div>
+</div>
+  <h4 align="center" id="achieve"> Achievements </h4><br>
+<div class="row mb-0">
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="../img/trophy.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">**MISSING**</h5>
+      <p class="card-text">Description</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">updated on 02/03/2019</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../img/medal.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">**MISSING**</h5>
+      <p class="card-text">Description</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">updated on 03/01/2019</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../img/trophy.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">**MISSING**</h5>
+      <p class="card-text">Description</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">updated on 31/01/2019</small>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+
+ <h4 align="center" id="event"> Events </h4><br>
+      <div class="row mb-0">
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <h3 class="mb-0">
+                <a class="text-dark" href="#">  <strong class="d-inline-block mb-2 text-primary">Event 1</strong>
+          </a>
+              </h3>
+              <div class="mb-1 text-muted">Jan 23</div>
+              <p class="card-text mb-auto">Information regarding event is missing</p>
+              <a role="button" class="btn btn-info btn-md"  href="#">Know more</a> 
+ 
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="250" height="250" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                <h3 class="mb-0">
+                <a class="text-dark" href="#">  <strong class="d-inline-block mb-2 text-danger">Event 2</strong>
+          </a>
+              </h3>
+              <div class="mb-1 text-muted">Feb 23</div>
+              <p class="card-text mb-auto">Information regarding event is missing</p>
+              <a role="button" class="btn btn-info btn-md"  href="#">Know more</a> 
+ 
+            </div>
+            <svg class="bd-placeholder-img card-img-right flex-auto d-none d-lg-block" width="250" height="250" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+ <h4 align="center" > Club Gallery </h4><br>
+ 
+        <!-- ALBUM CARDS-->
+        <div class="row mb-0" id="gallery">
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+              <title>Placeholder</title>
+              <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Description of the image or video to be put here</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ <h4 align="center"> FAQs</h4><br>
+  <div class="row md-0">
+<div class="col-12">
+
+        <div id="faq">
+            <div class="card">
+                <div  data-toggle="collapse" data-target="#q1_ans" class="card-header collapsed" role="tab" id="q1_head">
+                <h5 class="mb-0">
+                    <a>
+                    Why should I join Clevr?
+                    </a>
+                </h5>
+                </div>
+                <div class="collapse show" id="q1_ans" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="d-block"><h6><em>Answer lies here</em></h6></p>
+                    </div>
+                </div>
+                </div>
+         
+          <div class="card">
+                    <div data-toggle="collapse" data-target="#q2_ans" class="card-header collapsed" role="tab" id="q2_head">
+                    <h5 class="mb-0">
+                        <a>
+                        What is the schedule of club activities?
+                        </a>
+                    </h5>
+                </div>
+                <div class="collapse" id="q2_ans" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="d-block"><h6><em>Answer lies here</em></h6></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                    <div  data-toggle="collapse" data-target="#q3_ans" class="card-header collapsed" role="tab" id="q3_head">
+                    <h5 class="mb-0">
+                        <a>
+                         What are the various activities counducted in this club?
+                        </a>
+                    </h5>
+                </div>
+                <div class="collapse" id="q3_ans" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="d-block"><h6><em>Answer lies here
+                            </em></h6></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                    <div  data-toggle="collapse" data-target="#q4_ans" class="card-header collapsed" role="tab" id="q4_head">
+                    <h5 class="mb-0">
+                        <a>
+                        What is the recruitement procedure of the club?
+                        </a>
+                    </h5>
+                </div>
+                <div class="collapse" id="q4_ans" data-parent="#faq">
+                    <div class="card-body">
+                        <p class="d-block"><h6><em>Answer lies here</em></h6></p>
+                    </div>
+                </div>
+            </div>
+
+                     </div>
+</div>
+</div><br>
+    </main>
+  </div><div class="row">
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-dark container-fluid " style="width: 100%; z-index: 100;color:white;">
+
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mr-auto">
+              <img src="../favicon.ico" alt="" width="210" height="210"  class="rounded">
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase"></h5>
+    
+            <ul class="list-unstyled" >
+              <li>
+                <p>
+                  <a href="../constitution.pdf" class="footer_content">CONSTITUTION</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="../k.html" class="footer_content">CLUBS</a>
+                </p>
+              </li>
+              <li>
+                  <li>
+                      <p>
+                        <a href="../eventsnew.html" class="footer_content">FESTS</a>
+                      </p>
+                    </li>
+                <p>
+                  <a href="../calendar.html" class="footer_content">CALENDAR</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="../contact.html" class="footer_content">CONTACT US</a>
+                </p>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mx-auto">
+    
+            <!-- Contact details -->
+            <h5 class="font-weight-bold text-uppercase"></h5>
+    
+            <ul class="list-unstyled">
+              <li>
+                <p id="footr_addr">
+                  <i class="fa fa-home mr-3" ></i> Main Campus<br>
+                  IIT (ISM), Dhanbad<br>
+                  Jharkhand, India, 826004</p>
+              </li>
+              <li>
+                <p id="footr_addr" >
+                  <i class="fa fa-envelope mr-3" ></i> <a href="mailto:info@iitism.ac.in" id="footr_link"> info@iitism.ac.in</a></p>
+              </li>
+              <li>
+                <p id="footr_addr">
+                  <i class="fa fa-phone mr-3" ></i> <a href="tel:03262235001" id="footr_link">0326-2235001</a></p>
+              </li>
+              <li>
+                <p id="footr_addr">
+                  <i class="fa fa-print mr-3" ></i> <a href="fax:03262296563" id="footr_link">0326-2296563</a></p>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3" style="z-index: 99;margin-top:0px; padding-bottom: 0px;" >© 2019 Copyright:
+        <a href="http://www.cyberlabs.club" style="color:white;"> Cyberlabs</a>
+    
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+    <!-- Footer -->  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  
+  
+    <script src="../jquery/dist/jquery.slim.min.js"></script>
+    <script src="../popper.js/dist/umd/popper.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>    
+    <script src="../search.js"></script>
+    <script src="../app.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

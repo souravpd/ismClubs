@@ -87,6 +87,22 @@ const data = [
   },
   
   {
+    "field":"Udaan",
+    "type":"Career Guidance Club",
+    "website":"./clubs/udaan.html"
+},
+{
+    "field":"Quiziapa",
+    "type":"Quizzing Club",
+    "website":"./clubs/quiziapa.html"
+},
+
+{
+    "field":"Clevr",
+    "type":"Electronics Club",
+    "website":"./clubs/clevr.html"
+},
+  {
       "field":"Srijan",
       "type":"Cultural Fest",
       "website":"https://www.srijaniitism.org/"

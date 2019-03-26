@@ -26,7 +26,7 @@
 <li>Chayanika Sangh - Everything missing</li>
 <li>LitC - Everything except logo missing</li>
 <li>Book Club - Everything except logo missing</li>
-<li>Cyberlabs - Everything missing</li>
+<li>Cyberlabs - E-mail ID and contact no., Club gallery photos and description and links missing</li>
 <li>RoboISM - Everything missing</li>
 <li>Mechismu - photo of faculty advisor and student cordinators, description of gallery photos, FAQ missing</li>
 <li>E-cell - contact info of faculty advisor and student coordinators, achievements, gallery photo descriptions, faq missing</li>

@@ -42,4 +42,4 @@
 <li>Clevr-mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing</li>
 <li> LCI - Everything is missing </li>
 <li> Artfreaks - Photos missing<li>
-
+</ol>

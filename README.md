@@ -35,5 +35,7 @@
 <li>Manthan- Everything missing</li>
 <li>ADC - Everything missing</li>
 <li>WTC - FAQs missing</li>
-<li>Udaan-Page Of Udaan Created Achievements,Gallery photo descriptions,some faq missing,event description missing</li>
-<li>Quiziapa-Page Of Quiziapa Created Official Website link,Gallery photo descriptions,some faq missing,Event description missing</li>
+<li>Udaan- Achievements,Gallery photo descriptions,some faq missing,event description missing</li>
+<li>Quiziapa- Gallery photo descriptions,some faq missing,Event description missing</li>
+<li> LCI - Everything is missing </li>
+

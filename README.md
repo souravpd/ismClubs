@@ -26,6 +26,8 @@
 <li> Chayanika Sangh - Everything missing </li>
 <li> LitC - Everything except logo missing </li>
 <li> Book Club - Everything except logo missing </li>
+<li> Book Club - Everything except logo missing </li>
+<li> Book Club - Everything except logo missing </li>
 
 
 </ol>

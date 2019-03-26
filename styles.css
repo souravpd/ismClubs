@@ -1,3 +1,9 @@
+main{
+  min-height: 88vh !important;
+  flex-direction: column-reverse !important;
+  justify-content: space-between!important;
+  
+}
 
 body {
     font-size: .875rem;
@@ -184,7 +190,7 @@ body {
     display:block;
     position:absolute;
 bottom:6vh;
-left: 30px;
+left: 5px;
 }
 #p1:hover #p1_img{
   opacity: 0.7;
@@ -198,7 +204,7 @@ left: 30px;
     display:block;
     position:absolute;
 bottom:6vh;
-left: 30px;
+left: 5px;
 }
 
 #p2:hover #p2_img{
@@ -212,7 +218,7 @@ left: 30px;
     display:block;
     position:absolute;
 bottom:6vh;
-left: 30px;
+left: 5px;
 }
 
 #p3:hover #p3_img{
@@ -262,6 +268,8 @@ left: 30px;
   margin-left: .75rem;
 }
 footer{
+  position:relative;
+  bottom :0px;
   background-color:   #272c30;
  }
 
@@ -288,8 +296,8 @@ footer{
   color :white;
 }
 #footr_addr{
-  color :white; font-size:1.05em;
-}
+  color :white; font-size:1.10em;
+  margin-left : 0px;}
 #footr_link{
   color:white; 
 }
@@ -309,9 +317,10 @@ footer{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; !important
+  width: 100% !important ;
   height: auto   !important;
 }
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -332,4 +341,8 @@ footer{
   .featurette-heading {
     margin-top: 4rem;
   }
+}
+
+h1{
+  font-family: 'Comfortaa', cursive;
 }

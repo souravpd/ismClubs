@@ -31,6 +31,9 @@
 <li> Mechismu - photo of faculty advisor and student cordinators, description of gallery photos, FAQ missing </li>
 <li> E-cell - contact info of faculty advisor and student coordinators, achievements, gallery photo descriptions, faq missing </li>
 <li> Arka - mail ID of student coordinators, achievements, events description and photos, gallery images and descriptions, FAQ missing </li>
+<li> LITM - Everything missing</li>
+<li> Manthan- Everything missing</li>
+<li> ADC - Everything missing</li>
 
 
 </ol>

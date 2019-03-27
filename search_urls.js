@@ -85,7 +85,23 @@ const data = [
       "type":"Astronomy Club",
       "website":"https://iit-ism-clubs.000webhostapp.com/clubs/astro.html"
   },
-  
+    
+  {
+    "field":"Udaan",
+    "type":"Career Guidance Club",
+    "website":"https://iit-ism-clubs.000webhostapp.com/clubs/udaan.html"
+},
+{
+    "field":"Quiziapa",
+    "type":"Quizzing Club",
+    "website":"https://iit-ism-clubs.000webhostapp.com/clubs/quiziapa.html"
+},
+
+{
+    "field":"Clevr",
+    "type":"Electronics Club",
+    "website":"https://iit-ism-clubs.000webhostapp.com/clubs/clevr.html"
+},  
   {
       "field":"Srijan",
       "type":"Cultural Fest",

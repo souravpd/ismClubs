@@ -346,3 +346,8 @@ footer{
 h1{
   font-family: 'Comfortaa', cursive;
 }
+
+@media (max-width: 384px){
+h1{font-size: 14vw !important;
+}
+}
